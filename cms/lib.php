@@ -45,7 +45,7 @@ function cms_set_text(DOMNode $node, string $value): void {
     $texts[0]->nodeValue = $value;
     foreach (array_slice($texts, 1) as $text) $text->nodeValue = '';
 }
-function cms_render_model(array $model, array $values, array $collections = []): string {
+function cms_render_model(array $model, array $values, array $collections = [], bool $bake = false): string {
     $doc = cms_fragment($model['html']); $xp = new DOMXPath($doc);
     // Resolve all references before edits alter the DOM.
     $references = [];
@@ -69,8 +69,9 @@ function cms_render_model(array $model, array $values, array $collections = []):
                 foreach (iterator_to_array($node->childNodes) as $child) $node->removeChild($child);
                 $node->appendChild($doc->createTextNode($value));
             }
-        } else { $node->nodeValue = $value; }
+        } else { $node->nodeValue = $bake && $value === '' && $node instanceof DOMText ? "\u{200B}" : $value; }
     }
+    if ($bake) return cms_inner($doc->getElementById('cms-root'));
     foreach (iterator_to_array($xp->query('//*[@data-cms-collection]')) as $node) {
         $id = $node->getAttribute('data-cms-collection');
         $html = '';

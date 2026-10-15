@@ -72,7 +72,7 @@ try {
                     $values=[];foreach($templates['blocks'][$route]['fields'] as $key=>$field)$values[$key]=$field['default'];
                     $title='New project';$description='';foreach($templates['items'][$template]['fields'] as $key=>$field){if(str_starts_with($field['label'],'Title —'))$title=$entry['values'][$key];if($field['type']==='textarea')$description=$entry['values'][$key];}
                     $category='';$year='';$tech='';$live='';
-                    foreach($templates['items'][$template]['fields'] as $key=>$field){if(str_starts_with($field['label'],'Label —')||$field['label']==='Project date / status')$year=$entry['values'][$key];if((str_starts_with($field['label'],'Text —')&&$field['type']==='text')||$field['label']==='Category')$category=$entry['values'][$key];if($field['type']==='lines')$tech=$entry['values'][$key];if($field['type']==='url'&&str_starts_with($field['default'],'http'))$live=$entry['values'][$key];}
+                    foreach($templates['items'][$template]['fields'] as $key=>$field){if(str_starts_with($field['label'],'Label —')||$field['label']==='Project date / status')$year=$entry['values'][$key];if((str_starts_with($field['label'],'Text —')&&$field['type']==='text')||$field['label']==='Category')$category=$entry['values'][$key];if($field['type']==='lines')$tech=$entry['values'][$key];if($field['type']==='url'&&($key==='f6'||str_starts_with($field['default'],'http')))$live=$entry['values'][$key];}
                     foreach($templates['blocks'][$route]['fields'] as $key=>$field){
                         if(str_starts_with($field['label'],'Main heading'))$values[$key]=$title;
                         if(str_starts_with($field['label'],'Text —')&&$field['type']==='textarea')$values[$key]=$description;
@@ -83,7 +83,7 @@ try {
                             elseif($key==='f7')$values[$key]=$next['profile']['role'];
                         }
                         if($field['type']==='lines')$values[$key]=str_starts_with($field['label'],'Technologies')?$tech:'';
-                        if($field['type']==='url'&&str_starts_with($field['default'],'http'))$values[$key]=$live;
+                        if($field['type']==='url'&&($key==='f13'||str_starts_with($field['default'],'http')))$values[$key]=$live;
                     }
                     $next['blocks'][$route]=$values;$next['pages'][$route]=['title'=>$title.' | '.$next['profile']['name'],'description'=>$description];$entry['case']=['route'=>$route];
                     foreach($templates['items'][$template]['fields'] as $key=>$field)if($field['type']==='url'&&str_contains($field['default'],'projects/'))$entry['values'][$key]='project.php?project='.$itemId;

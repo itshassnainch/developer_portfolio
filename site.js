@@ -79,7 +79,9 @@
       }
       const subject = values.get('subject') || 'Portfolio project enquiry';
       const body = `${values.get('message')}\n\nFrom: ${values.get('name')}\nEmail: ${values.get('email')}`;
-      location.href = `mailto:${window.portfolioConfig?.email || 'imrangujjar3198@gmail.com'}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      const contactEmail = window.portfolioConfig?.email || document.querySelector('a[href^="mailto:"]')?.getAttribute('href').slice(7);
+      if (!contactEmail) { status.textContent = 'Please use the contact details on this page.'; return; }
+      location.href = `mailto:${contactEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       status.textContent = 'Your email app will open with your message. Send it there to complete your enquiry.';
     });
   }

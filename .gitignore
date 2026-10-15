@@ -24,3 +24,5 @@ reference.html
 portfolio-source.zip
 portfolio-site.tar.gz
 .deployment/
+.legacy-source/
+.qa-icons/

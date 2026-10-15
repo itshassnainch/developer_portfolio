@@ -34,18 +34,14 @@ foreach(iterator_to_array($xp->query('//*[@data-cms-block]')) as $marker) {
 }
 // Normalize the shell's relative assets too.
 foreach($xp->query('//link/@href | //script/@src') as $attr){$value=$attr->nodeValue;if(!preg_match('~^(https?:|/|#)~i',$value))$attr->nodeValue=$base.preg_replace('~^(?:\./|\.\./)+~','',$value);}
-$original=cms_json('templates')['profile']??[
-    'name'=>'Muhammad Imran Ali','shortName'=>'Imran','role'=>'Full Stack JavaScript Developer',
-    'email'=>'imrangujjar3198@gmail.com','phone'=>'+92 302 6009873','whatsapp'=>'923026009873',
-    'linkedin'=>'https://www.linkedin.com/in/muhammad-imran-ali-383110228','github'=>'https://github.com/MuhammadImranali98',
-    'facebook'=>'https://www.facebook.com/muhammad.imran.ali.gujjar.503063'
-];
+$original=$templates['profile']??$content['profile'];
 $replace=[];foreach($original as $key=>$value)if(isset($content['profile'][$key])&&$value!=='')$replace[$value]=$content['profile'][$key];
-$replace['Imran Ali']=$content['profile']['name'];
 foreach($xp->query('//body//text()[not(ancestor::script) and not(ancestor::style)] | //title/text() | //@alt | //meta/@content | //a/@href') as $node)$node->nodeValue=strtr($node->nodeValue,$replace);
+foreach($xp->query('//a[.//svg[contains(@class,"lucide-linkedin")]]') as $link)$link->setAttribute('href',$content['profile']['linkedin']);
+foreach($xp->query('//a[.//svg[contains(@class,"lucide-github")]]') as $link)$link->setAttribute('href',$content['profile']['github']);
 foreach($xp->query('//a[starts-with(@href,"tel:")]') as $phone)$phone->setAttribute('href','tel:'.preg_replace('/[^+0-9]/','',$content['profile']['phone']));
 foreach(iterator_to_array($xp->query('//a[@href="" or @href="mailto:" or @href="tel:"]')) as $link)$link->parentNode->removeChild($link);
-foreach($xp->query('//img[contains(@src,"homeimg.png")]') as $img)$img->setAttribute('src',$base.$content['profile']['photo']);
+foreach($xp->query('//img[@data-cms-photo or contains(@src,"homeimg.png")]') as $img)$img->setAttribute('src',$base.$content['profile']['photo']);
 foreach($xp->query('//a[contains(@href,"resume.pdf")]') as $link)$link->setAttribute('href',$base.$content['profile']['resume']);
 if($title=$xp->query('//title')->item(0))$title->textContent=strtr($content['pages'][$route]['title']??$page['title'],$replace);
 foreach($xp->query('//meta[@property="og:title"] | //meta[@name="twitter:title"]') as $meta)$meta->setAttribute('content',$title?->textContent??$content['profile']['name']);
@@ -65,7 +61,7 @@ if(is_string($palette)&&in_array($palette,['teal','burgundy','electric'],true)){
     foreach($xp->query('//a/@href') as $link){$href=$link->nodeValue;if(str_starts_with($href,$base)&&!preg_match('~\.(pdf|png|jpg|webp)(?:\?|$)~i',$href))$link->nodeValue=$href.(str_contains($href,'?')?'&':'?').'palette='.$palette;}
 }
 // A changed local asset gets a fresh URL so previous colors cannot remain cached.
-foreach($xp->query('//link[@rel="stylesheet"]/@href | //script[@src]/@src') as $attr){
+foreach($xp->query('//link[@rel="stylesheet" or @rel="icon" or @rel="apple-touch-icon"]/@href | //script[@src]/@src') as $attr){
     $assetUrl=$attr->nodeValue;
     if(str_starts_with($assetUrl,$base)){
         $assetRelative=explode('?',substr($assetUrl,strlen($base)))[0];
