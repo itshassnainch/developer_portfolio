@@ -73,7 +73,17 @@
           if (!response.ok) throw new Error(result.error || 'Your message could not be saved. Please try again.');
           form.reset();
           status.textContent = 'Thank you! Your message has been received.';
-        } catch (error) { status.textContent = error.message || 'Please try again or use the email link.'; }
+        } catch (error) {
+          const contactEmail = window.portfolioConfig?.email || document.querySelector('a[href^="mailto:"]')?.getAttribute('href').slice(7);
+          const subject = values.get('subject') || 'Portfolio project enquiry';
+          const body = `${values.get('message')}\n\nFrom: ${values.get('name')}\nEmail: ${values.get('email')}`;
+          if (contactEmail) {
+            location.href = `mailto:${contactEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            status.textContent = 'Your email app will open with your message. Send it there to complete your enquiry.';
+          } else {
+            status.textContent = error.message || 'Please try again or use the email link.';
+          }
+        }
         finally { submit.disabled = false; }
         return;
       }
