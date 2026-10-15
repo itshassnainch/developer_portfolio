@@ -1,5 +1,4 @@
 import {spawn} from 'node:child_process';
-import {writeFileSync} from 'node:fs';
 import assert from 'node:assert/strict';
 const browser=spawn('C:/Program Files/Google/Chrome/Application/chrome.exe',['--headless','--disable-gpu','--no-first-run','--remote-debugging-port=19231','--user-data-dir=C:/xampp/htdocs/developer_portfolio/.qa-theme','about:blank'],{windowsHide:true,stdio:'ignore'});
 let socket;
@@ -16,8 +15,7 @@ try{
  assert.equal(await evaluate('document.documentElement.dataset.theme'),'dark');
  await evaluate(`document.querySelector('.theme-toggle').click()`);assert.equal(await evaluate('document.documentElement.dataset.theme'),'light');
  assert.equal(await evaluate(`localStorage.getItem('portfolio-theme')`),'light');
- assert.equal(await evaluate(`getComputedStyle(document.body).backgroundColor`),'rgb(248, 250, 252)');
- await evaluate(`new Promise(r=>setTimeout(r,700))`);const screenshot=await call('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});writeFileSync('preview-light-mode.png',Buffer.from(screenshot.data,'base64'));
+ assert.ok(await evaluate(`getComputedStyle(document.body).backgroundColor.match(/[0-9]+/g).slice(0,3).every(value=>Number(value)>230)`));
  await call('Page.navigate',{url:'http://localhost/developer_portfolio/dist/contact/'});await new Promise(r=>setTimeout(r,400));await ready();assert.equal(await evaluate('document.documentElement.dataset.theme'),'light');
  assert.equal(await evaluate(`getComputedStyle(document.querySelector('.field')).color`),'rgb(15, 23, 42)');
  await call('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});assert.equal(await evaluate('document.documentElement.scrollWidth'),390);

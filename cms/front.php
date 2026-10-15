@@ -41,8 +41,7 @@ foreach($xp->query('//a[.//svg[contains(@class,"lucide-linkedin")]]') as $link)$
 foreach($xp->query('//a[.//svg[contains(@class,"lucide-github")]]') as $link)$link->setAttribute('href',$content['profile']['github']);
 foreach($xp->query('//a[starts-with(@href,"tel:")]') as $phone)$phone->setAttribute('href','tel:'.preg_replace('/[^+0-9]/','',$content['profile']['phone']));
 foreach(iterator_to_array($xp->query('//a[@href="" or @href="mailto:" or @href="tel:"]')) as $link)$link->parentNode->removeChild($link);
-foreach($xp->query('//img[@data-cms-photo or contains(@src,"homeimg.png")]') as $img)$img->setAttribute('src',$base.$content['profile']['photo']);
-foreach($xp->query('//a[contains(@href,"resume.pdf")]') as $link)$link->setAttribute('href',$base.$content['profile']['resume']);
+foreach($xp->query('//img[@data-cms-photo]') as $img)$img->setAttribute('src',$base.$content['profile']['photo']);
 if($title=$xp->query('//title')->item(0))$title->textContent=strtr($content['pages'][$route]['title']??$page['title'],$replace);
 foreach($xp->query('//meta[@property="og:title"] | //meta[@name="twitter:title"]') as $meta)$meta->setAttribute('content',$title?->textContent??$content['profile']['name']);
 foreach($xp->query('//meta[@property="og:site_name"]') as $meta)$meta->setAttribute('content',$content['profile']['name'].' | Portfolio');

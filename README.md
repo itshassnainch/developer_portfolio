@@ -25,7 +25,7 @@ Shared sections update on both Home and their dedicated pages. The homepage show
 
 `cms/data/content.json` is the saved content. `cms/data/templates.json` contains the page layouts and editable-field definitions. `cms/data/auth.json` is created on first setup and stores a password hash. `cms/data/messages.json` stores contact messages. Apache blocks direct access to this directory. Every content save creates a copy of the previous content there.
 
-Upload files are stored in `dist/uploads/`. Photo uploads accept JPG, PNG and WebP up to 4 MB; resumes accept PDF up to 10 MB, subject to PHP's configured upload limits. The original photo and resume remain available.
+Upload files are stored in `dist/uploads/`. Photo uploads accept JPG, PNG and WebP up to 4 MB; resumes accept PDF up to 10 MB, subject to PHP's configured upload limits.
 
 PHP `index.php` entry points render Hassnain's portfolio with saved content. Both template markup and defaults contain Hassnain's details. HTML files are current generated snapshots of the same content; use Admin for persistent edits. After content changes, refresh those source snapshots with `C:\xampp\php\php.exe tools\export-pages.php`. Apache must honor the `dist/.htaccess` DirectoryIndex setting.
 
