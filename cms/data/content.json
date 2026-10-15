@@ -1,0 +1,367 @@
+{
+    "revision": 8,
+    "blocks": {
+        "header": {
+            "f0": "Hassnain",
+            "f1": "About",
+            "f2": "Skills",
+            "f3": "Projects",
+            "f4": "Services",
+            "f5": "Experience",
+            "f6": "Contact",
+            "f7": "Contact me",
+            "f8": "../",
+            "f9": "../about/",
+            "f10": "../skills/",
+            "f11": "../projects/",
+            "f12": "../services/",
+            "f13": "../experience/",
+            "f14": "../contact/",
+            "f15": "../contact/"
+        },
+        "footer": {
+            "f0": "Let's build and learn together.",
+            "f1": "Junior PHP Developer | Rawalpindi, Pakistan",
+            "f2": "Get in touch",
+            "f3": "© ",
+            "f4": "2026",
+            "f5": "Hassnain Ali",
+            "f6": ". All rights reserved.",
+            "f7": "PHP / Laravel / MySQL / RESTful APIs / JavaScript",
+            "f8": "../contact/",
+            "f9": "",
+            "f10": "",
+            "f11": "mailto:ha4216845@gmail.com",
+            "f12": "https://wa.me/923465637560"
+        },
+        "social": {
+            "f0": "LinkedIn",
+            "f1": "GitHub",
+            "f2": "Email",
+            "f3": "Resume",
+            "f4": "",
+            "f5": "",
+            "f6": "mailto:ha4216845@gmail.com",
+            "f7": "../uploads/hassnain-ali-cv.pdf"
+        },
+        "projects": {
+            "f0": "Projects",
+            "f1": "Learning through a practical REST API project.",
+            "f2": "A learning project focused on CRUD operations, JSON APIs and frontend integration."
+        },
+        "hero": {
+            "f0": " Open to junior PHP roles",
+            "f1": "Junior ",
+            "f2": "PHP",
+            "f3": " Developer building practical web solutions",
+            "f4": "I support PHP/MySQL applications, integrate REST APIs and improve responsive interfaces with HTML, CSS, Bootstrap, JavaScript, jQuery and AJAX. Based in Rawalpindi, Pakistan.",
+            "f5": "Get in touch ",
+            "f6": "View my project",
+            "f7": "2024",
+            "f8": "BS Computer Science",
+            "f9": "1",
+            "f10": "Learning project",
+            "f11": "Sep 2025",
+            "f12": "Joined QMH Tech",
+            "f13": "Hassnain Ali",
+            "f14": "Junior PHP Developer",
+            "f15": "Open",
+            "f58": "./contact/",
+            "f59": "./projects/",
+            "f60": "Hassnain Ali"
+        },
+        "about": {
+            "f0": "Problem solving & troubleshooting\nTeam collaboration\nResponsive web development\nTime management",
+            "f1": "<?php\n$developer = [\n    'name' => 'Hassnain Ali',\n    'role' => 'Junior PHP Developer',\n    'location' => 'Rawalpindi, Pakistan',\n    'backend' => ['PHP', 'Laravel basics', 'MySQL'],\n    'frontend' => ['HTML5', 'CSS3', 'Bootstrap', 'JavaScript'],\n    'focus' => 'Learning, debugging and maintainable code',\n];",
+            "f2": "About",
+            "f3": "Learning by building. Growing through real work.",
+            "f4": "I am a Computer Science graduate and Junior PHP Developer based in Rawalpindi, Pakistan. I support PHP/MySQL web applications and have practical knowledge of Laravel, HTML5, CSS3, Bootstrap, JavaScript, jQuery and AJAX. My work includes CRUD operations, SQL queries, RESTful API integration, JSON responses and backend/frontend debugging. I am keen to learn from experienced developers and contribute to reliable, maintainable web applications.",
+            "f5": "developer.php"
+        },
+        "skills": {
+            "f0": "Skills",
+            "f1": "A practical PHP and web development toolkit."
+        },
+        "projects-home": {
+            "f0": "Project",
+            "f1": "REST API Task Manager.",
+            "f2": "Putting PHP, MySQL and JavaScript into practice."
+        },
+        "services": {
+            "f0": "How I can contribute",
+            "f1": "Practical support for your web development team."
+        },
+        "experience": {
+            "f0": "Experience",
+            "f1": "Hands-on experience supporting web applications."
+        },
+        "cta": {
+            "f0": "Looking for a junior PHP developer?",
+            "f1": "I am ready to contribute to PHP/MySQL applications, learn from an experienced team and grow through practical development work.",
+            "f2": "Contact me",
+            "f3": "Explore my project",
+            "f4": "./contact/",
+            "f5": "./projects/"
+        },
+        "contact": {
+            "f0": "Contact",
+            "f1": "Let's connect.",
+            "f2": "Have a junior PHP development opportunity or a web application task? Get in touch by email, phone or the message form.",
+            "f3": "ha4216845@gmail.com",
+            "f4": "+92 346 5637560",
+            "f5": "Rawalpindi, Pakistan",
+            "f6": "Send message ",
+            "f7": "mailto:ha4216845@gmail.com",
+            "f8": "tel:+923465637560",
+            "f9": "Your name",
+            "f10": "Email address",
+            "f11": "Subject (optional)",
+            "f12": "Tell me about the role or development task..."
+        },
+        "marquee": {
+            "f0": "PHP\nLaravel\nMySQL\nHTML5\nCSS3\nBootstrap\nJavaScript\njQuery\nAJAX\nRESTful APIs\nJSON\nGit / GitHub\nPostman\nMVC basics"
+        },
+        "projects/rest-api-task-manager": {
+            "f0": "CRUD endpoints using GET, POST, PUT/PATCH and DELETE\nJSON request and response handling\nAuthentication flow and validation\nSearch / filtering and pagination\nPostman endpoint testing\nJavaScript Fetch API integration",
+            "f1": "PHP\nMySQL\nJavaScript\nRESTful APIs\nJSON\nPostman",
+            "f2": " All projects",
+            "f3": "Practical learning project",
+            "f4": "",
+            "f5": "REST API Task Manager",
+            "f6": "Role: ",
+            "f7": "Learning project developer",
+            "f8": "",
+            "f9": "A practical learning project for understanding REST API development and frontend integration using PHP, MySQL and JavaScript. It covers CRUD endpoints, JSON request/response handling, authentication flow, validation, search/filtering, pagination, Postman testing and JavaScript Fetch API integration.",
+            "f10": "What the project covers",
+            "f11": "Tech stack",
+            "f12": "../../projects/",
+            "f13": ""
+        },
+        "projects/item-f325564358ae4f9b853b8245641a0761": {
+            "f0": "",
+            "f1": "",
+            "f2": " All projects",
+            "f3": "",
+            "f4": "",
+            "f5": "New project",
+            "f6": "Role: ",
+            "f7": "Junior PHP Developer",
+            "f8": "",
+            "f9": "",
+            "f10": "What the project covers",
+            "f11": "Tech stack",
+            "f12": "../../projects/",
+            "f13": ""
+        }
+    },
+    "collections": {
+        "projects": [
+            {
+                "id": "projects-task-manager",
+                "template": "projects-0",
+                "visible": true,
+                "values": {
+                    "f0": "PHP\nMySQL\nJavaScript\nRESTful APIs\nJSON",
+                    "f1": "Learning project",
+                    "f2": "REST API Task Manager",
+                    "f3": "PHP / MySQL / JavaScript",
+                    "f4": "A practical learning project for understanding REST API development and frontend integration using PHP, MySQL and JavaScript. It covers CRUD endpoints, JSON request/response handling, authentication flow, validation, search/filtering, pagination, Postman testing and JavaScript Fetch API integration.",
+                    "f5": "Read project details ",
+                    "f6": "",
+                    "f7": "../projects/rest-api-task-manager/"
+                },
+                "case": {
+                    "route": "projects/rest-api-task-manager"
+                }
+            },
+            {
+                "id": "item-f325564358ae4f9b853b8245641a0761",
+                "template": "projects-0",
+                "visible": true,
+                "values": {
+                    "f0": "",
+                    "f1": "",
+                    "f2": "New project",
+                    "f3": "",
+                    "f4": "",
+                    "f5": "",
+                    "f6": "",
+                    "f7": "project.php?project=item-f325564358ae4f9b853b8245641a0761"
+                },
+                "case": {
+                    "route": "projects/item-f325564358ae4f9b853b8245641a0761"
+                }
+            }
+        ],
+        "skills": [
+            {
+                "id": "skills-cv-0",
+                "template": "skills-0",
+                "visible": true,
+                "values": {
+                    "f0": "PHP fundamentals\nForms & validation\nSessions\nLaravel basics\nMVC basics\nRouting & controllers\nModels & middleware",
+                    "f1": "PHP & Laravel"
+                }
+            },
+            {
+                "id": "skills-cv-1",
+                "template": "skills-0",
+                "visible": true,
+                "values": {
+                    "f0": "MySQL\nRelational database concepts\nTables & primary / foreign keys\nOne-to-many relationships\nCRUD operations\nSQL queries",
+                    "f1": "MySQL & relational databases"
+                }
+            },
+            {
+                "id": "skills-cv-2",
+                "template": "skills-0",
+                "visible": true,
+                "values": {
+                    "f0": "HTML5\nCSS3\nTailwind\nBootstrap\nJavaScript\njQuery\nAJAX\nResponsive web development\n",
+                    "f1": "Frontend integration"
+                }
+            },
+            {
+                "id": "skills-cv-3",
+                "template": "skills-0",
+                "visible": true,
+                "values": {
+                    "f0": "RESTful APIs\nGET / POST / PUT / PATCH / DELETE\nHTTP status codes\nJSON\nFetch API integration\nPostman\nGit / GitHub\nMySQL tools\nBrowser & network debugging",
+                    "f1": "APIs & development tools"
+                }
+            },
+            {
+                "id": "skills-cv-4",
+                "template": "skills-0",
+                "visible": true,
+                "values": {
+                    "f0": "Problem solving\nDebugging & troubleshooting\nTeam collaboration\nResponsive web development\nTime management",
+                    "f1": "Core competencies"
+                }
+            }
+        ],
+        "services": [
+            {
+                "id": "services-cv-0",
+                "template": "services-0",
+                "visible": true,
+                "values": {
+                    "f0": "PHP application maintenance\nCRUD operations\nSQL queries\nFeature updates & bug fixes",
+                    "f1": "PHP / MySQL application support",
+                    "f2": "Help with assigned application updates, CRUD features and database queries."
+                }
+            },
+            {
+                "id": "services-cv-1",
+                "template": "services-1",
+                "visible": true,
+                "values": {
+                    "f0": "HTML5 / CSS3 / Bootstrap\nJavaScript & jQuery\nAJAX requests\nResponsive interface updates",
+                    "f1": "Frontend updates & integration",
+                    "f2": "Assist with responsive interfaces and connect frontend behaviour to backend endpoints."
+                }
+            },
+            {
+                "id": "services-cv-2",
+                "template": "services-2",
+                "visible": true,
+                "values": {
+                    "f0": "HTTP methods & status codes\nJSON requests / responses\nFetch API integration\nPostman testing",
+                    "f1": "REST API integration",
+                    "f2": "Work with RESTful endpoints, JSON data and API testing in a junior developer role."
+                }
+            },
+            {
+                "id": "services-cv-3",
+                "template": "services-3",
+                "visible": true,
+                "values": {
+                    "f0": "Backend / frontend debugging\nBrowser & network checks\nGit / GitHub workflow\nTeam collaboration",
+                    "f1": "Testing & troubleshooting",
+                    "f2": "Investigate application issues and support a clean, maintainable development workflow."
+                }
+            }
+        ],
+        "experience": [
+            {
+                "id": "experience-qmh",
+                "template": "experience-0",
+                "visible": true,
+                "values": {
+                    "f0": "PHP\nMySQL\nHTML\nCSS\nBootstrap\nJavaScript\njQuery\nAJAX\nRESTful APIs\nJSON",
+                    "f1": "Sep 2025 – Present",
+                    "f2": "Junior PHP Developer",
+                    "f3": "QMH Tech",
+                    "f4": "Support the development and maintenance of PHP/MySQL applications, including assigned feature updates and bug fixes. Work with relational database tables, CRUD operations and SQL queries to keep data structured and consistent. Assist with frontend changes using HTML, CSS, Bootstrap, JavaScript, jQuery and AJAX. Integrate RESTful APIs and JSON responses, investigate issues through testing and debugging, and collaborate with team members while following project requirements and coding practices."
+                }
+            }
+        ]
+    },
+    "profile": {
+        "name": "Hassnain Ali",
+        "shortName": "Hassnain",
+        "role": "Junior PHP Developer",
+        "email": "ha4216845@gmail.com",
+        "phone": "+92 346 5637560",
+        "whatsapp": "923465637560",
+        "linkedin": "",
+        "github": "",
+        "facebook": "",
+        "photo": "uploads/professional-portrait-01a1395d.png",
+        "resume": "uploads/hassnain-ali-cv.pdf"
+    },
+    "pages": {
+        "projects": {
+            "title": "Projects | Hassnain Ali",
+            "description": "Hassnain Ali, a Computer Science graduate and Junior PHP Developer in Rawalpindi, Pakistan. PHP, Laravel basics, MySQL, RESTful APIs, JavaScript and responsive web development."
+        },
+        "": {
+            "title": "Hassnain Ali | Junior PHP Developer",
+            "description": "Hassnain Ali, a Computer Science graduate and Junior PHP Developer in Rawalpindi, Pakistan. PHP, Laravel basics, MySQL, RESTful APIs, JavaScript and responsive web development."
+        },
+        "about": {
+            "title": "About | Hassnain Ali",
+            "description": "Hassnain Ali, a Computer Science graduate and Junior PHP Developer in Rawalpindi, Pakistan. PHP, Laravel basics, MySQL, RESTful APIs, JavaScript and responsive web development."
+        },
+        "skills": {
+            "title": "Skills | Hassnain Ali",
+            "description": "Hassnain Ali, a Computer Science graduate and Junior PHP Developer in Rawalpindi, Pakistan. PHP, Laravel basics, MySQL, RESTful APIs, JavaScript and responsive web development."
+        },
+        "services": {
+            "title": "Services | Hassnain Ali",
+            "description": "Hassnain Ali, a Computer Science graduate and Junior PHP Developer in Rawalpindi, Pakistan. PHP, Laravel basics, MySQL, RESTful APIs, JavaScript and responsive web development."
+        },
+        "experience": {
+            "title": "Experience | Hassnain Ali",
+            "description": "Hassnain Ali, a Computer Science graduate and Junior PHP Developer in Rawalpindi, Pakistan. PHP, Laravel basics, MySQL, RESTful APIs, JavaScript and responsive web development."
+        },
+        "contact": {
+            "title": "Contact | Hassnain Ali",
+            "description": "Hassnain Ali, a Computer Science graduate and Junior PHP Developer in Rawalpindi, Pakistan. PHP, Laravel basics, MySQL, RESTful APIs, JavaScript and responsive web development."
+        },
+        "projects/rest-api-task-manager": {
+            "title": "REST API Task Manager | Hassnain Ali",
+            "description": "A practical learning project for understanding REST API development and frontend integration using PHP, MySQL and JavaScript. It covers CRUD endpoints, JSON request/response handling, authentication flow, validation, search/filtering, pagination, Postman testing and JavaScript Fetch API integration."
+        },
+        "projects/item-f325564358ae4f9b853b8245641a0761": {
+            "title": "New project | Hassnain Ali",
+            "description": ""
+        }
+    },
+    "visibility": {
+        "header": true,
+        "footer": true,
+        "social": true,
+        "projects": true,
+        "hero": true,
+        "about": true,
+        "skills": true,
+        "projects-home": true,
+        "services": true,
+        "experience": true,
+        "cta": true,
+        "contact": true,
+        "marquee": true,
+        "projects/rest-api-task-manager": true
+    }
+}

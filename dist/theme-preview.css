@@ -1,0 +1,41 @@
+html[data-palette=teal]{--preview-accent:#438e85;--preview-hover:#58a398;--preview-text:#83bbb3;--preview-light:#236b62;--preview-border:#355c57;--preview-tint:#438e8520}
+html[data-palette=burgundy]{--preview-accent:#843b52;--preview-hover:#9b4962;--preview-text:#d4a0b0;--preview-light:#843b52;--preview-border:#633847;--preview-tint:#843b5226}
+html[data-palette=electric]{--preview-accent:#a855f7;--preview-hover:#c084fc;--preview-text:#22d3ee;--preview-light:#7e22ce;--preview-border:#a855f74d;--preview-tint:#a855f726}
+html[data-palette] .btn-primary{background:var(--preview-accent);color:#fff;box-shadow:none}
+html[data-palette] .btn-primary:hover{background:var(--preview-hover);color:#fff}
+html[data-palette] :is(.text-accent,.eyebrow,.text-gradient){background:none;color:var(--preview-text)}
+html[data-palette] .bg-accent{background:var(--preview-accent)}
+html[data-palette] :is(.bg-accent\/10,.bg-accent\/20){background:var(--preview-tint)}
+html[data-palette] :is(.border-accent,.border-accent\/20){border-color:var(--preview-border)}
+html[data-palette] :is(.btn-ghost:hover,.field:focus,[class*="hover:border-accent"]:hover){border-color:var(--preview-accent)}
+html[data-palette] :is(.hover\:text-accent:hover,.link-underline:hover,.mobile-navigation a:hover){color:var(--preview-text)}
+html[data-palette] .hover\:bg-accent:hover{background:var(--preview-accent);color:#fff}
+html[data-palette] .theme-toggle:hover{background:var(--preview-tint);color:var(--preview-text)}
+html[data-palette][data-theme=dark] .glass{border-color:var(--preview-border)}
+html[data-palette] :focus-visible{outline-color:var(--preview-text)}
+html[data-palette] ::selection{background:var(--preview-accent);color:#fff}
+html[data-palette][data-theme=light] :is(.text-accent,.eyebrow,.text-gradient,.link-underline:hover,.mobile-navigation a:hover,.btn-ghost:hover){color:var(--preview-light)}
+html[data-palette][data-theme=light] .theme-toggle:hover{background:var(--preview-tint);color:var(--preview-light)}
+html[data-palette][data-theme=light] .glass{border-color:#cbd5e1}
+html[data-palette=electric][data-theme=dark] body{background-color:#0c0915;background-image:radial-gradient(ellipse at 80% 12%,#a855f714,transparent 50%),radial-gradient(ellipse at 5% 50%,#22d3ee0a,transparent 55%)}
+html[data-palette=electric] .btn-primary{box-shadow:0 8px 32px -10px #a855f7b3;color:#fff}
+html[data-palette=electric] .btn-primary:hover{box-shadow:0 8px 38px -8px #a855f7cc;background:#b566ff}
+html[data-palette=electric] .text-gradient{background:linear-gradient(110deg,#c084fc 5%,#a855f7 40%,#22d3ee 95%);background-clip:text;-webkit-background-clip:text;color:transparent}
+html[data-palette=electric] main [class*="blur-3xl"]{opacity:.45}
+html[data-palette=electric] .bg-accent\/20{background:#a855f733}
+html[data-palette=electric] .bg-sky2\/15{background:#22d3ee26}
+html[data-palette=electric][data-theme=dark] .theme-toggle:hover{background:#a855f720;color:#22d3ee}
+html[data-palette=electric][data-theme=dark] header.scrolled{background:#0c0915eb}
+html[data-palette=electric][data-theme=dark] .mobile-navigation{background:#120d20}
+html[data-palette=electric][data-theme=light] .text-gradient{background:linear-gradient(110deg,#7e22ce,#0891b2);background-clip:text;-webkit-background-clip:text;color:transparent}
+/* Cyan variant of the bright electric palette. */
+html[data-palette=electric]{--preview-accent:#22d3ee;--preview-hover:#67e8f9;--preview-text:#22d3ee;--preview-light:#0e7490;--preview-border:#22d3ee4d;--preview-tint:#22d3ee26}
+html[data-palette=electric][data-theme=dark] body{background-color:#090f14;background-image:radial-gradient(ellipse at 80% 12%,#22d3ee14,transparent 50%),radial-gradient(ellipse at 5% 50%,#06b6d40a,transparent 55%)}
+html[data-palette=electric] .btn-primary{background:#22d3ee;color:#08252d;box-shadow:0 8px 32px -10px #22d3eeb3}
+html[data-palette=electric] .btn-primary:hover{background:#67e8f9;color:#08252d;box-shadow:0 8px 38px -8px #22d3eecc}
+html[data-palette=electric] .text-gradient{background:linear-gradient(110deg,#a5f3fc,#22d3ee 55%,#06b6d4);background-clip:text;-webkit-background-clip:text;color:transparent}
+html[data-palette=electric] .bg-accent\/20{background:#22d3ee33}
+html[data-palette=electric][data-theme=dark] .theme-toggle:hover{background:#22d3ee20;color:#67e8f9}
+html[data-palette=electric][data-theme=dark] header.scrolled{background:#090f14eb}
+html[data-palette=electric][data-theme=dark] .mobile-navigation{background:#0d1820}
+html[data-palette=electric][data-theme=light] .text-gradient{background:linear-gradient(110deg,#0e7490,#0891b2);background-clip:text;-webkit-background-clip:text;color:transparent}

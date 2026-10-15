@@ -1,0 +1,1481 @@
+{
+    "blocks": {
+        "header": {
+            "label": "Navigation",
+            "html": "<header class=\"fixed inset-x-0 top-0 z-50 transition-all duration-300 border-b border-transparent\"><nav class=\"container-page flex h-16 items-center justify-between\"><a class=\"font-display text-xl font-bold tracking-tight text-white\" href=\"../\">Imran<span class=\"text-accent\">.</span></a><ul class=\"hidden items-center gap-7 md:flex\"><li><a class=\"link-underline text-sm\" href=\"../about/\">About</a></li><li><a class=\"link-underline text-sm\" href=\"../skills/\">Skills</a></li><li><a class=\"link-underline text-sm\" href=\"../projects/\">Projects</a></li><li><a class=\"link-underline text-sm\" href=\"../services/\">Services</a></li><li><a class=\"link-underline text-sm\" href=\"../experience/\">Experience</a></li><li><a class=\"link-underline text-sm\" href=\"../contact/\">Contact</a></li></ul><div class=\"hidden md:block\"><a class=\"btn-primary text-sm\" href=\"../contact/\">Hire Me</a></div><button class=\"md:hidden text-zinc-200\" aria-label=\"Menu\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-menu\"><line x1=\"4\" x2=\"20\" y1=\"12\" y2=\"12\"></line><line x1=\"4\" x2=\"20\" y1=\"6\" y2=\"6\"></line><line x1=\"4\" x2=\"20\" y1=\"18\" y2=\"18\"></line></svg></button></nav></header>",
+            "fields": {
+                "f0": {
+                    "label": "Link label — Hassnain",
+                    "type": "text",
+                    "path": "/html/body/div/header/nav/a/text()",
+                    "default": "Hassnain"
+                },
+                "f1": {
+                    "label": "Link label — About",
+                    "type": "text",
+                    "path": "/html/body/div/header/nav/ul/li[1]/a/text()",
+                    "default": "About"
+                },
+                "f2": {
+                    "label": "Link label — Skills",
+                    "type": "text",
+                    "path": "/html/body/div/header/nav/ul/li[2]/a/text()",
+                    "default": "Skills"
+                },
+                "f3": {
+                    "label": "Link label — Projects",
+                    "type": "text",
+                    "path": "/html/body/div/header/nav/ul/li[3]/a/text()",
+                    "default": "Projects"
+                },
+                "f4": {
+                    "label": "Link label — Services",
+                    "type": "text",
+                    "path": "/html/body/div/header/nav/ul/li[4]/a/text()",
+                    "default": "Services"
+                },
+                "f5": {
+                    "label": "Link label — Experience",
+                    "type": "text",
+                    "path": "/html/body/div/header/nav/ul/li[5]/a/text()",
+                    "default": "Experience"
+                },
+                "f6": {
+                    "label": "Link label — Contact",
+                    "type": "text",
+                    "path": "/html/body/div/header/nav/ul/li[6]/a/text()",
+                    "default": "Contact"
+                },
+                "f7": {
+                    "label": "Link label — Contact me",
+                    "type": "text",
+                    "path": "/html/body/div/header/nav/div/a/text()",
+                    "default": "Contact me"
+                },
+                "f8": {
+                    "label": "Link destination — ../",
+                    "type": "url",
+                    "path": "/html/body/div/header/nav/a/@href",
+                    "default": "../"
+                },
+                "f9": {
+                    "label": "Link destination — ../about/",
+                    "type": "url",
+                    "path": "/html/body/div/header/nav/ul/li[1]/a/@href",
+                    "default": "../about/"
+                },
+                "f10": {
+                    "label": "Link destination — ../skills/",
+                    "type": "url",
+                    "path": "/html/body/div/header/nav/ul/li[2]/a/@href",
+                    "default": "../skills/"
+                },
+                "f11": {
+                    "label": "Link destination — ../projects/",
+                    "type": "url",
+                    "path": "/html/body/div/header/nav/ul/li[3]/a/@href",
+                    "default": "../projects/"
+                },
+                "f12": {
+                    "label": "Link destination — ../services/",
+                    "type": "url",
+                    "path": "/html/body/div/header/nav/ul/li[4]/a/@href",
+                    "default": "../services/"
+                },
+                "f13": {
+                    "label": "Link destination — ../experience/",
+                    "type": "url",
+                    "path": "/html/body/div/header/nav/ul/li[5]/a/@href",
+                    "default": "../experience/"
+                },
+                "f14": {
+                    "label": "Link destination — ../contact/",
+                    "type": "url",
+                    "path": "/html/body/div/header/nav/ul/li[6]/a/@href",
+                    "default": "../contact/"
+                },
+                "f15": {
+                    "label": "Link destination — ../contact/",
+                    "type": "url",
+                    "path": "/html/body/div/header/nav/div/a/@href",
+                    "default": "../contact/"
+                }
+            }
+        },
+        "footer": {
+            "label": "Footer",
+            "html": "<footer class=\"border-t border-white/10 mt-10\"><div class=\"container-page py-12\"><div class=\"flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between\"><div><p class=\"font-display text-2xl font-bold text-white\">Let's build something.</p><p class=\"mt-2 text-zinc-400\">Available for full-stack roles &amp; freelance projects.</p><a class=\"btn-primary mt-5 text-sm\" href=\"../contact/\">Start a project</a></div><div class=\"flex gap-4\"><a href=\"https://github.com/MuhammadImranali98\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"GitHub\" class=\"grid h-11 w-11 place-items-center rounded-full border border-white/10 text-zinc-300 transition-colors hover:border-accent/60 hover:text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-github\"><path d=\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"></path><path d=\"M9 18c-4.51 2-5-2-7-2\"></path></svg></a><a href=\"https://www.linkedin.com/in/muhammad-imran-ali-383110228\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"LinkedIn\" class=\"grid h-11 w-11 place-items-center rounded-full border border-white/10 text-zinc-300 transition-colors hover:border-accent/60 hover:text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-linkedin\"><path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect width=\"4\" height=\"12\" x=\"2\" y=\"9\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle></svg></a><a href=\"mailto:imrangujjar3198@gmail.com\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Email\" class=\"grid h-11 w-11 place-items-center rounded-full border border-white/10 text-zinc-300 transition-colors hover:border-accent/60 hover:text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\"><rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"></rect><path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"></path></svg></a><a href=\"https://wa.me/923026009873\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"WhatsApp\" class=\"grid h-11 w-11 place-items-center rounded-full border border-white/10 text-zinc-300 transition-colors hover:border-accent/60 hover:text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-message-circle\"><path d=\"M7.9 20A9 9 0 1 0 4 16.1L2 22Z\"></path></svg></a></div></div><div class=\"mt-10 flex flex-col gap-2 border-t border-white/10 pt-6 text-sm text-zinc-500 sm:flex-row sm:justify-between\"><span>© <!-- -->2026<!-- --> <!-- -->Muhammad Imran Ali<!-- -->. All rights reserved.</span><span class=\"font-mono\">Built with Next.js · TypeScript · Prisma</span></div></div></footer>",
+            "fields": {
+                "f0": {
+                    "label": "Text — Let's build and learn together.",
+                    "type": "text",
+                    "path": "/html/body/div/footer/div/div[1]/div[1]/p[1]/text()",
+                    "default": "Let's build and learn together."
+                },
+                "f1": {
+                    "label": "Text — Junior PHP Developer | Rawalpindi, Pakistan",
+                    "type": "text",
+                    "path": "/html/body/div/footer/div/div[1]/div[1]/p[2]/text()",
+                    "default": "Junior PHP Developer | Rawalpindi, Pakistan"
+                },
+                "f2": {
+                    "label": "Link label — Get in touch",
+                    "type": "text",
+                    "path": "/html/body/div/footer/div/div[1]/div[1]/a/text()",
+                    "default": "Get in touch"
+                },
+                "f3": {
+                    "label": "Label — ©",
+                    "type": "text",
+                    "path": "/html/body/div/footer/div/div[2]/span[1]/text()[1]",
+                    "default": "© "
+                },
+                "f4": {
+                    "label": "Label — 2026",
+                    "type": "text",
+                    "path": "/html/body/div/footer/div/div[2]/span[1]/text()[2]",
+                    "default": "2026"
+                },
+                "f5": {
+                    "label": "Label — Hassnain Ali",
+                    "type": "text",
+                    "path": "/html/body/div/footer/div/div[2]/span[1]/text()[4]",
+                    "default": "Hassnain Ali"
+                },
+                "f6": {
+                    "label": "Label — . All rights reserved.",
+                    "type": "text",
+                    "path": "/html/body/div/footer/div/div[2]/span[1]/text()[5]",
+                    "default": ". All rights reserved."
+                },
+                "f7": {
+                    "label": "Label — PHP / Laravel / MySQL / RESTful APIs / JavaScrip",
+                    "type": "text",
+                    "path": "/html/body/div/footer/div/div[2]/span[2]/text()",
+                    "default": "PHP / Laravel / MySQL / RESTful APIs / JavaScript"
+                },
+                "f8": {
+                    "label": "Link destination — ../contact/",
+                    "type": "url",
+                    "path": "/html/body/div/footer/div/div[1]/div[1]/a/@href",
+                    "default": "../contact/"
+                },
+                "f9": {
+                    "label": "Link destination — ",
+                    "type": "url",
+                    "path": "/html/body/div/footer/div/div[1]/div[2]/a[1]/@href",
+                    "default": ""
+                },
+                "f10": {
+                    "label": "Link destination — ",
+                    "type": "url",
+                    "path": "/html/body/div/footer/div/div[1]/div[2]/a[2]/@href",
+                    "default": ""
+                },
+                "f11": {
+                    "label": "Link destination — mailto:ha4216845@gmail.com",
+                    "type": "url",
+                    "path": "/html/body/div/footer/div/div[1]/div[2]/a[3]/@href",
+                    "default": "mailto:ha4216845@gmail.com"
+                },
+                "f12": {
+                    "label": "Link destination — https://wa.me/923465637560",
+                    "type": "url",
+                    "path": "/html/body/div/footer/div/div[1]/div[2]/a[4]/@href",
+                    "default": "https://wa.me/923465637560"
+                }
+            }
+        },
+        "social": {
+            "label": "Social sidebar",
+            "html": "<div class=\"fixed left-0 top-1/2 z-40 hidden -translate-y-1/2 flex-col gap-px lg:flex\"><a href=\"https://www.linkedin.com/in/muhammad-imran-ali-383110228\" target=\"_blank\" rel=\"noreferrer\" class=\"group flex items-center gap-3 rounded-r-xl border border-l-0 border-white/10 bg-ink-100/80 px-3 py-3 text-zinc-400 backdrop-blur transition-all hover:bg-accent hover:text-ink\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-linkedin\"><path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect width=\"4\" height=\"12\" x=\"2\" y=\"9\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle></svg><span class=\"hidden text-sm font-medium group-hover:inline\">LinkedIn</span></a><a href=\"https://github.com/MuhammadImranali98\" target=\"_blank\" rel=\"noreferrer\" class=\"group flex items-center gap-3 rounded-r-xl border border-l-0 border-white/10 bg-ink-100/80 px-3 py-3 text-zinc-400 backdrop-blur transition-all hover:bg-accent hover:text-ink\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-github\"><path d=\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\"></path><path d=\"M9 18c-4.51 2-5-2-7-2\"></path></svg><span class=\"hidden text-sm font-medium group-hover:inline\">GitHub</span></a><a href=\"mailto:imrangujjar3198@gmail.com\" target=\"_blank\" rel=\"noreferrer\" class=\"group flex items-center gap-3 rounded-r-xl border border-l-0 border-white/10 bg-ink-100/80 px-3 py-3 text-zinc-400 backdrop-blur transition-all hover:bg-accent hover:text-ink\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\"><rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"></rect><path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"></path></svg><span class=\"hidden text-sm font-medium group-hover:inline\">Email</span></a><a href=\"../resume.pdf\" target=\"_blank\" rel=\"noreferrer\" class=\"group flex items-center gap-3 rounded-r-xl border border-l-0 border-white/10 bg-ink-100/80 px-3 py-3 text-zinc-400 backdrop-blur transition-all hover:bg-accent hover:text-ink\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-file-text\"><path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\"></path><path d=\"M14 2v4a2 2 0 0 0 2 2h4\"></path><path d=\"M10 9H8\"></path><path d=\"M16 13H8\"></path><path d=\"M16 17H8\"></path></svg><span class=\"hidden text-sm font-medium group-hover:inline\">Resume</span></a></div>",
+            "fields": {
+                "f0": {
+                    "label": "Label — LinkedIn",
+                    "type": "text",
+                    "path": "/html/body/div/div/a[1]/span/text()",
+                    "default": "LinkedIn"
+                },
+                "f1": {
+                    "label": "Label — GitHub",
+                    "type": "text",
+                    "path": "/html/body/div/div/a[2]/span/text()",
+                    "default": "GitHub"
+                },
+                "f2": {
+                    "label": "Label — Email",
+                    "type": "text",
+                    "path": "/html/body/div/div/a[3]/span/text()",
+                    "default": "Email"
+                },
+                "f3": {
+                    "label": "Label — Resume",
+                    "type": "text",
+                    "path": "/html/body/div/div/a[4]/span/text()",
+                    "default": "Resume"
+                },
+                "f4": {
+                    "label": "Link destination — ",
+                    "type": "url",
+                    "path": "/html/body/div/div/a[1]/@href",
+                    "default": ""
+                },
+                "f5": {
+                    "label": "Link destination — ",
+                    "type": "url",
+                    "path": "/html/body/div/div/a[2]/@href",
+                    "default": ""
+                },
+                "f6": {
+                    "label": "Link destination — mailto:ha4216845@gmail.com",
+                    "type": "url",
+                    "path": "/html/body/div/div/a[3]/@href",
+                    "default": "mailto:ha4216845@gmail.com"
+                },
+                "f7": {
+                    "label": "Link destination — ../uploads/hassnain-ali-cv.pdf",
+                    "type": "url",
+                    "path": "/html/body/div/div/a[4]/@href",
+                    "default": "../uploads/hassnain-ali-cv.pdf"
+                }
+            }
+        },
+        "projects": {
+            "label": "Projects",
+            "html": "<section class=\"section\"><div class=\"container-page\"><div class=\"\" style=\"opacity:0;transform:translateY(18px)\"><span class=\"eyebrow\">Projects</span><h2 class=\"mt-4 text-3xl font-semibold text-white sm:text-4xl md:text-5xl\">Everything I've shipped.</h2><p class=\"mt-4 max-w-2xl text-zinc-400 \">Real products across SaaS, healthcare AI, full-stack platforms and booking systems.</p></div><div class=\"mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3\"><div data-cms-collection=\"projects\"></div></div></div></section>",
+            "fields": {
+                "f0": {
+                    "label": "Label — Projects",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/span/text()",
+                    "default": "Projects"
+                },
+                "f1": {
+                    "label": "Section heading — Learning through a practical REST API project.",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/h2/text()",
+                    "default": "Learning through a practical REST API project."
+                },
+                "f2": {
+                    "label": "Text — A learning project focused on CRUD operations, J",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/p/text()",
+                    "default": "A learning project focused on CRUD operations, JSON APIs and frontend integration."
+                }
+            }
+        },
+        "hero": {
+            "label": "Hero",
+            "html": "<section class=\"relative overflow-hidden pt-20 pb-2 sm:pt-36 sm:pb-20\"><div class=\"grid-lines absolute inset-0 -z-10 opacity-40\" aria-hidden=\"true\"></div><div class=\"container-page grid items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]\"><div><span class=\"eyebrow\" style=\"opacity:0;will-change:opacity,transform;transform:translateY(10px)\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-sparkles\"><path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"></path><path d=\"M20 3v4\"></path><path d=\"M22 5h-4\"></path><path d=\"M4 17v2\"></path><path d=\"M5 18H3\"></path></svg> Available for work</span><h1 class=\"mt-5 max-w-2xl text-[2rem] font-bold leading-[1.08] text-white sm:text-5xl lg:text-6xl\" style=\"opacity:0;will-change:opacity,transform;transform:translateY(24px)\">Full Stack <span class=\"text-gradient\">JavaScript</span> Developer building scalable web apps</h1><p class=\"mt-5 max-w-xl text-base text-zinc-400 sm:mt-6 sm:text-lg\" style=\"opacity:0;will-change:opacity,transform;transform:translateY(18px)\">I build fast, responsive, and production-ready web applications using React.js, Next.js, Node.js, Express.js, PostgreSQL, and modern cloud-ready architecture.</p><div class=\"mt-8 flex flex-col gap-3 sm:mt-9 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4\" style=\"opacity:0;will-change:opacity,transform;transform:translateY(18px)\"><a class=\"btn-primary btn-block-mobile\" href=\"./contact/\">Hire Me <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a><a class=\"btn-ghost btn-block-mobile\" href=\"./projects/\">View Projects</a></div><div class=\"mt-10 grid max-w-md grid-cols-3 gap-3 sm:mt-12 sm:gap-4\" style=\"opacity:0;will-change:opacity\"><div><p class=\"font-display text-2xl font-bold text-accent sm:text-3xl\">3+</p><p class=\"mt-1 text-xs text-zinc-500\">Years experience</p></div><div><p class=\"font-display text-2xl font-bold text-accent sm:text-3xl\">15+</p><p class=\"mt-1 text-xs text-zinc-500\">Projects shipped</p></div><div><p class=\"font-display text-2xl font-bold text-accent sm:text-3xl\">100%</p><p class=\"mt-1 text-xs text-zinc-500\">Remote-ready</p></div></div></div><div class=\"relative mx-auto w-full max-w-[18rem] sm:max-w-sm\" style=\"opacity:0;will-change:opacity,transform;transform:translateY(20px) scale(0.95)\"><div class=\"absolute -inset-3 -z-10 rounded-[2rem] border border-accent/20\" aria-hidden=\"true\"></div><div class=\"absolute -right-3 -top-3 -z-10 h-24 w-24 rounded-full bg-accent/20 blur-3xl sm:-right-6 sm:-top-6 sm:h-28 sm:w-28\" aria-hidden=\"true\"></div><div class=\"absolute -bottom-4 -left-4 -z-10 h-28 w-28 rounded-full bg-sky2/15 blur-3xl sm:-bottom-8 sm:-left-8 sm:h-32 sm:w-32\" aria-hidden=\"true\"></div><div class=\"group relative overflow-hidden rounded-[1.75rem] border border-white/10 shadow-card ring-1 ring-white/5\"><img alt=\"Muhammad Imran Ali\" fetchpriority=\"high\" width=\"500\" height=\"500\" decoding=\"async\" data-nimg=\"1\" class=\"aspect-square w-full object-cover transition-transform duration-700 group-hover:scale-105\" style=\"color:transparent\" src=\"./homeimg.png\"><div class=\"pointer-events-none absolute inset-0 bg-gradient-to-t from-ink via-ink/10 to-transparent\"></div><div class=\"pointer-events-none absolute inset-0 bg-gradient-to-tr from-accent/10 via-transparent to-sky2/10 mix-blend-overlay\"></div><div class=\"absolute inset-x-4 bottom-4 flex items-center justify-between rounded-2xl border border-white/10 bg-ink/70 px-4 py-3 backdrop-blur-md\"><div><p class=\"font-display text-sm font-semibold text-white\">Muhammad Imran Ali</p><p class=\"text-xs text-accent\">Full Stack JavaScript Developer</p></div><span class=\"flex items-center gap-1.5 text-xs text-zinc-300\"><span class=\"relative flex h-2 w-2\"><span class=\"absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75\"></span><span class=\"relative inline-flex h-2 w-2 rounded-full bg-accent\"></span></span>Open</span></div></div></div></div><div data-cms-block=\"marquee\"></div></section>",
+            "fields": {
+                "f0": {
+                    "label": "Label — Open to junior PHP roles",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[1]/span/text()",
+                    "default": " Open to junior PHP roles"
+                },
+                "f1": {
+                    "label": "Main heading — Junior",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[1]/h1/text()[1]",
+                    "default": "Junior "
+                },
+                "f2": {
+                    "label": "Label — PHP",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[1]/h1/span/text()",
+                    "default": "PHP"
+                },
+                "f3": {
+                    "label": "Main heading — Developer building practical web solutions",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[1]/h1/text()[2]",
+                    "default": " Developer building practical web solutions"
+                },
+                "f4": {
+                    "label": "Text — I support PHP/MySQL applications, integrate REST",
+                    "type": "textarea",
+                    "path": "/html/body/div/section/div[2]/div[1]/p/text()",
+                    "default": "I support PHP/MySQL applications, integrate REST APIs and improve responsive interfaces with HTML, CSS, Bootstrap, JavaScript, jQuery and AJAX. Based in Rawalpindi, Pakistan."
+                },
+                "f5": {
+                    "label": "Link label — Get in touch",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[1]/div[1]/a[1]/text()",
+                    "default": "Get in touch "
+                },
+                "f6": {
+                    "label": "Link label — View my project",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[1]/div[1]/a[2]/text()",
+                    "default": "View my project"
+                },
+                "f7": {
+                    "label": "Text — 2024",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[1]/div[2]/div[1]/p[1]/text()",
+                    "default": "2024"
+                },
+                "f8": {
+                    "label": "Text — BS Computer Science",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[1]/div[2]/div[1]/p[2]/text()",
+                    "default": "BS Computer Science"
+                },
+                "f9": {
+                    "label": "Text — 1",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[1]/div[2]/div[2]/p[1]/text()",
+                    "default": "1"
+                },
+                "f10": {
+                    "label": "Text — Learning project",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[1]/div[2]/div[2]/p[2]/text()",
+                    "default": "Learning project"
+                },
+                "f11": {
+                    "label": "Text — Sep 2025",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[1]/div[2]/div[3]/p[1]/text()",
+                    "default": "Sep 2025"
+                },
+                "f12": {
+                    "label": "Text — Joined QMH Tech",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[1]/div[2]/div[3]/p[2]/text()",
+                    "default": "Joined QMH Tech"
+                },
+                "f13": {
+                    "label": "Text — Hassnain Ali",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[2]/div[4]/div[3]/div/p[1]/text()",
+                    "default": "Hassnain Ali"
+                },
+                "f14": {
+                    "label": "Text — Junior PHP Developer",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[2]/div[4]/div[3]/div/p[2]/text()",
+                    "default": "Junior PHP Developer"
+                },
+                "f15": {
+                    "label": "Label — Open",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[2]/div[4]/div[3]/span/text()",
+                    "default": "Open"
+                },
+                "f58": {
+                    "label": "Link destination — ./contact/",
+                    "type": "url",
+                    "path": "/html/body/div/section/div[2]/div[1]/div[1]/a[1]/@href",
+                    "default": "./contact/"
+                },
+                "f59": {
+                    "label": "Link destination — ./projects/",
+                    "type": "url",
+                    "path": "/html/body/div/section/div[2]/div[1]/div[1]/a[2]/@href",
+                    "default": "./projects/"
+                },
+                "f60": {
+                    "label": "Alt",
+                    "type": "text",
+                    "path": "/html/body/div/section/div[2]/div[2]/div[4]/img/@alt",
+                    "default": "Hassnain Ali"
+                }
+            }
+        },
+        "about": {
+            "label": "About",
+            "html": "<section class=\"section\"><div class=\"container-page grid gap-8 md:grid-cols-2 md:items-center md:gap-12\"><div class=\"min-w-0\"><div class=\"\" style=\"opacity:0;transform:translateY(18px)\"><span class=\"eyebrow\">About</span><h2 class=\"mt-4 text-3xl font-semibold text-white sm:text-4xl md:text-5xl\">From frontend craft to full-stack delivery.</h2></div><div style=\"opacity:0;transform:translateY(18px)\"><p class=\"mt-5 max-w-xl text-sm leading-6 md:leading-7 text-zinc-400 sm:text-base\">I am a Full Stack JavaScript Developer with 3+ years of experience building scalable, high-performance web applications using React.js, Next.js, Node.js, Express.js, and PostgreSQL. I have developed business dashboards, client platforms, real-time applications, backend APIs, authentication systems, and payment-based systems with a strong focus on clean architecture, performance optimization, security, and user experience.</p></div><div style=\"opacity:0;transform:translateY(18px)\"><ul class=\"mt-5 grid gap-3 sm:grid-cols-2 md:mt-7\"><li class=\"flex items-start gap-2 text-sm leading-6 text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check mt-1 shrink-0 text-accent\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m9 12 2 2 4-4\"></path></svg><span>Clean, scalable architecture</span></li><li class=\"flex items-start gap-2 text-sm leading-6 text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check mt-1 shrink-0 text-accent\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m9 12 2 2 4-4\"></path></svg><span>Performance &amp; SEO optimization</span></li><li class=\"flex items-start gap-2 text-sm leading-6 text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check mt-1 shrink-0 text-accent\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m9 12 2 2 4-4\"></path></svg><span>Secure auth &amp; API design</span></li><li class=\"flex items-start gap-2 text-sm leading-6 text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check mt-1 shrink-0 text-accent\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m9 12 2 2 4-4\"></path></svg><span>Pixel-accurate, accessible UI</span></li></ul></div></div><div style=\"opacity:0;transform:translateY(18px)\"><div class=\"glass relative min-w-0 overflow-hidden p-4 sm:p-6\"><div class=\"flex items-center gap-2 border-b border-white/10 pb-3 font-mono text-xs text-zinc-500\"><span class=\"h-2.5 w-2.5 shrink-0 rounded-full bg-red-400/70\"></span><span class=\"h-2.5 w-2.5 shrink-0 rounded-full bg-yellow-400/70\"></span><span class=\"h-2.5 w-2.5 shrink-0 rounded-full bg-green-400/70\"></span><span class=\"ml-2 truncate\">developer.ts</span></div><pre class=\"mt-4 max-w-full overflow-x-auto whitespace-pre text-[11px] leading-relaxed sm:text-sm\"><code class=\"font-mono text-zinc-300\">const imran = {\n                  role: \"Full Stack JS Developer\",\n                 experience: \"3+ years\",\n                 frontend: [\"React\", \"Next.js\", \"TS\"],\n                 backend: [\"Node\", \"Express\", \"Prisma\"],\n                   focus: \"secure, fast products\",\n                 status: <span class=\"text-accent\">\"open to opportunities\"</span>,\n};</code></pre></div></div></div></section>",
+            "fields": {
+                "f0": {
+                    "label": "List items (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/section/div/div[1]/div[3]/ul",
+                    "default": "Problem solving & troubleshooting\nTeam collaboration\nResponsive web development\nTime management",
+                    "item": "<li class=\"flex items-start gap-2 text-sm leading-6 text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check mt-1 shrink-0 text-accent\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m9 12 2 2 4-4\"></path></svg><span>Clean, scalable architecture</span></li>"
+                },
+                "f1": {
+                    "label": "Developer card / code",
+                    "type": "code",
+                    "path": "/html/body/div/section/div/div[2]/div/pre",
+                    "default": "const imran = {\n                  role: \"Full Stack JS Developer\",\n                 experience: \"3+ years\",\n                 frontend: [\"React\", \"Next.js\", \"TS\"],\n                 backend: [\"Node\", \"Express\", \"Prisma\"],\n                   focus: \"secure, fast products\",\n                 status: \"open to opportunities\",\n};",
+                    "item": ""
+                },
+                "f2": {
+                    "label": "Label — About",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/div[1]/span/text()",
+                    "default": "About"
+                },
+                "f3": {
+                    "label": "Section heading — Learning by building. Growing through real work.",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/div[1]/h2/text()",
+                    "default": "Learning by building. Growing through real work."
+                },
+                "f4": {
+                    "label": "Text — I am a Computer Science graduate and Junior PHP ",
+                    "type": "textarea",
+                    "path": "/html/body/div/section/div/div[1]/div[2]/p/text()",
+                    "default": "I am a Computer Science graduate and Junior PHP Developer based in Rawalpindi, Pakistan. I support PHP/MySQL web applications and have practical knowledge of Laravel, HTML5, CSS3, Bootstrap, JavaScript, jQuery and AJAX. My work includes CRUD operations, SQL queries, RESTful API integration, JSON responses and backend/frontend debugging. I am keen to learn from experienced developers and contribute to reliable, maintainable web applications."
+                },
+                "f5": {
+                    "label": "Label — developer.php",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[2]/div/div/span[4]/text()",
+                    "default": "developer.php"
+                }
+            }
+        },
+        "skills": {
+            "label": "Skills",
+            "html": "<section class=\"section\"><div class=\"container-page\"><div class=\"\" style=\"opacity:0;transform:translateY(18px)\"><span class=\"eyebrow\">Skills</span><h2 class=\"mt-4 text-3xl font-semibold text-white sm:text-4xl md:text-5xl\">A complete toolkit, front to back.</h2></div><div class=\"mt-12 grid gap-6 md:grid-cols-3\"><div data-cms-collection=\"skills\"></div></div></div></section>",
+            "fields": {
+                "f0": {
+                    "label": "Label — Skills",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/span/text()",
+                    "default": "Skills"
+                },
+                "f1": {
+                    "label": "Section heading — A practical PHP and web development toolkit.",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/h2/text()",
+                    "default": "A practical PHP and web development toolkit."
+                }
+            }
+        },
+        "projects-home": {
+            "label": "Projects-home",
+            "html": "<section class=\"section\"><div class=\"container-page\"><div class=\"\" style=\"opacity:0;transform:translateY(18px)\"><span class=\"eyebrow\">Projects</span><h2 class=\"mt-4 text-3xl font-semibold text-white sm:text-4xl md:text-5xl\">Selected work.</h2><p class=\"mt-4 max-w-2xl text-zinc-400 \">Real products across SaaS, healthcare AI, full-stack platforms and booking systems.</p></div><div class=\"mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3\"><div data-cms-collection=\"projects\"></div></div></div></section>",
+            "fields": {
+                "f0": {
+                    "label": "Label — Project",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/span/text()",
+                    "default": "Project"
+                },
+                "f1": {
+                    "label": "Section heading — REST API Task Manager.",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/h2/text()",
+                    "default": "REST API Task Manager."
+                },
+                "f2": {
+                    "label": "Text — Putting PHP, MySQL and JavaScript into practice.",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/p/text()",
+                    "default": "Putting PHP, MySQL and JavaScript into practice."
+                }
+            }
+        },
+        "services": {
+            "label": "Services",
+            "html": "<section class=\"section\"><div class=\"container-page\"><div class=\"\" style=\"opacity:0;transform:translateY(18px)\"><span class=\"eyebrow\">Services</span><h2 class=\"mt-4 text-3xl font-semibold text-white sm:text-4xl md:text-5xl\">How I can help your team.</h2></div><div class=\"mt-12 grid gap-6 sm:grid-cols-2\"><div data-cms-collection=\"services\"></div></div></div></section>",
+            "fields": {
+                "f0": {
+                    "label": "Label — How I can contribute",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/span/text()",
+                    "default": "How I can contribute"
+                },
+                "f1": {
+                    "label": "Section heading — Practical support for your web development team.",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/h2/text()",
+                    "default": "Practical support for your web development team."
+                }
+            }
+        },
+        "experience": {
+            "label": "Experience",
+            "html": "<section class=\"section\"><div class=\"container-page\"><div class=\"\" style=\"opacity:0;transform:translateY(18px)\"><span class=\"eyebrow\">Experience</span><h2 class=\"mt-4 text-3xl font-semibold text-white sm:text-4xl md:text-5xl\">A track record of shipping.</h2></div><div class=\"mt-12 max-w-3xl\"><div data-cms-collection=\"experience\"></div></div></div></section>",
+            "fields": {
+                "f0": {
+                    "label": "Label — Experience",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/span/text()",
+                    "default": "Experience"
+                },
+                "f1": {
+                    "label": "Section heading — Hands-on experience supporting web applications.",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div[1]/h2/text()",
+                    "default": "Hands-on experience supporting web applications."
+                }
+            }
+        },
+        "cta": {
+            "label": "Cta",
+            "html": "<section class=\"section\"><div class=\"container-page\"><div style=\"opacity:0;transform:translateY(18px)\"><div class=\"glass relative overflow-hidden p-10 text-center sm:p-16\"><div class=\"grid-lines absolute inset-0 -z-10 opacity-30\" aria-hidden=\"true\"></div><h2 class=\"mx-auto max-w-2xl text-3xl font-bold text-white sm:text-4xl\">Have a product idea or a role to fill?</h2><p class=\"mx-auto mt-4 max-w-xl text-zinc-400\">I help teams ship scalable, secure, fast web apps — frontend to database.</p><div class=\"mt-8 flex flex-wrap justify-center gap-4\"><a class=\"btn-primary\" href=\"./contact/\">Hire Me</a><a class=\"btn-ghost\" href=\"./projects/\">See my work</a></div></div></div></div></section>",
+            "fields": {
+                "f0": {
+                    "label": "Section heading — Looking for a junior PHP developer?",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div/div/h2/text()",
+                    "default": "Looking for a junior PHP developer?"
+                },
+                "f1": {
+                    "label": "Text — I am ready to contribute to PHP/MySQL applicatio",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div/div/p/text()",
+                    "default": "I am ready to contribute to PHP/MySQL applications, learn from an experienced team and grow through practical development work."
+                },
+                "f2": {
+                    "label": "Link label — Contact me",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div/div/div[2]/a[1]/text()",
+                    "default": "Contact me"
+                },
+                "f3": {
+                    "label": "Link label — Explore my project",
+                    "type": "text",
+                    "path": "/html/body/div/section/div/div/div/div[2]/a[2]/text()",
+                    "default": "Explore my project"
+                },
+                "f4": {
+                    "label": "Link destination — ./contact/",
+                    "type": "url",
+                    "path": "/html/body/div/section/div/div/div/div[2]/a[1]/@href",
+                    "default": "./contact/"
+                },
+                "f5": {
+                    "label": "Link destination — ./projects/",
+                    "type": "url",
+                    "path": "/html/body/div/section/div/div/div/div[2]/a[2]/@href",
+                    "default": "./projects/"
+                }
+            }
+        },
+        "contact": {
+            "label": "Contact",
+            "html": "<div class=\"pt-28 section sm:pt-32\">\n        <div class=\"container-page grid gap-8 md:grid-cols-2 md:gap-12\">\n          <div>\n            <div class=\"\" style=\"opacity: 0; transform: translateY(18px)\">\n              <span class=\"eyebrow\">Contact</span>\n              <h2 class=\"mt-4 text-3xl font-semibold text-white sm:text-4xl md:text-5xl\">\n                Let's work together.\n              </h2>\n              <p class=\"mt-4 max-w-2xl text-zinc-400\">\n                Tell me about your project, role, or idea. I usually reply\n                within a day.\n              </p>\n            </div>\n            <div class=\"mt-8 space-y-4\">\n              <div class=\"flex items-center gap-3 text-zinc-300 break-anywhere\">\n                <span class=\"grid h-10 w-10 place-items-center rounded-xl bg-accent/10 text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\">\n                    <rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"></rect>\n                    <path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"></path></svg></span><a href=\"mailto:imrangujjar3198@gmail.com\" target=\"_blank\" rel=\"noreferrer\" class=\"hover:text-accent\">imrangujjar3198@gmail.com</a>\n              </div>\n              <div class=\"flex items-center gap-3 text-zinc-300 break-anywhere\">\n                <span class=\"grid h-10 w-10 place-items-center rounded-xl bg-accent/10 text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-message-circle\">\n                    <path d=\"M7.9 20A9 9 0 1 0 4 16.1L2 22Z\"></path></svg></span><a href=\"https://wa.me/923026009873\" target=\"_blank\" rel=\"noreferrer\" class=\"hover:text-accent\">+92 302 6009873</a>\n              </div>\n              <div class=\"flex items-center gap-3 text-zinc-300 break-anywhere\">\n                <span class=\"grid h-10 w-10 place-items-center rounded-xl bg-accent/10 text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin\">\n                    <path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"></path>\n                    <circle cx=\"12\" cy=\"10\" r=\"3\"></circle></svg></span><span>Pakistan · Remote / International</span>\n              </div>\n            </div>\n          </div>\n          <form class=\"glass space-y-4 p-6 sm:p-8\">\n            <input type=\"text\" tabindex=\"-1\" autocomplete=\"off\" class=\"hidden\" name=\"company\">\n            <div class=\"grid gap-4 sm:grid-cols-2\">\n              <div>\n                <input class=\"field\" placeholder=\"Your name\" name=\"name\">\n              </div>\n              <div>\n                <input class=\"field\" placeholder=\"Email address\" name=\"email\">\n              </div>\n            </div>\n            <input class=\"field\" placeholder=\"Subject (optional)\" name=\"subject\">\n            <div>\n              <textarea rows=\"6\" class=\"field resize-none\" placeholder=\"Tell me about your project…\" name=\"message\"></textarea>\n            </div>\n            <button type=\"submit\" class=\"btn-primary w-full sm:w-auto\">\n              Send message\n              <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-send\">\n                <path d=\"M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z\"></path>\n                <path d=\"m21.854 2.147-10.94 10.939\"></path>\n              </svg>\n            </button>\n          </form>\n        </div>\n      </div>",
+            "fields": {
+                "f0": {
+                    "label": "Label — Contact",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/div/div[1]/span/text()",
+                    "default": "Contact"
+                },
+                "f1": {
+                    "label": "Section heading — Let's connect.",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/div/div[1]/h2/text()",
+                    "default": "Let's connect."
+                },
+                "f2": {
+                    "label": "Text — Have a junior PHP development opportunity or a w",
+                    "type": "textarea",
+                    "path": "/html/body/div/div/div/div/div[1]/p/text()",
+                    "default": "Have a junior PHP development opportunity or a web application task? Get in touch by email, phone or the message form."
+                },
+                "f3": {
+                    "label": "Link label — ha4216845@gmail.com",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/div/div[2]/div[1]/a/text()",
+                    "default": "ha4216845@gmail.com"
+                },
+                "f4": {
+                    "label": "Link label — +92 346 5637560",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/div/div[2]/div[2]/a/text()",
+                    "default": "+92 346 5637560"
+                },
+                "f5": {
+                    "label": "Label — Rawalpindi, Pakistan",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/div/div[2]/div[3]/span[2]/text()",
+                    "default": "Rawalpindi, Pakistan"
+                },
+                "f6": {
+                    "label": "Text — Send message",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/form/button/text()[1]",
+                    "default": "Send message "
+                },
+                "f7": {
+                    "label": "Link destination — mailto:ha4216845@gmail.com",
+                    "type": "url",
+                    "path": "/html/body/div/div/div/div/div[2]/div[1]/a/@href",
+                    "default": "mailto:ha4216845@gmail.com"
+                },
+                "f8": {
+                    "label": "Link destination — tel:+923465637560",
+                    "type": "url",
+                    "path": "/html/body/div/div/div/div/div[2]/div[2]/a/@href",
+                    "default": "tel:+923465637560"
+                },
+                "f9": {
+                    "label": "Placeholder",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/form/div[1]/div[1]/input/@placeholder",
+                    "default": "Your name"
+                },
+                "f10": {
+                    "label": "Placeholder",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/form/div[1]/div[2]/input/@placeholder",
+                    "default": "Email address"
+                },
+                "f11": {
+                    "label": "Placeholder",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/form/input[2]/@placeholder",
+                    "default": "Subject (optional)"
+                },
+                "f12": {
+                    "label": "Placeholder",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/form/div[2]/textarea/@placeholder",
+                    "default": "Tell me about the role or development task..."
+                }
+            }
+        },
+        "marquee": {
+            "label": "Scrolling technologies",
+            "html": "<div class=\"mt-12 border-y border-white/10 py-3 sm:mt-16 sm:py-4\"><div class=\"flex w-max animate-marquee gap-6 whitespace-nowrap sm:gap-10\"><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">React<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Ant Design<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Tailwind Css<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Next.js<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">TypeScript<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Node.js<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Express<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">PostgreSQL<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Prisma<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Performance Optimization<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">System Design<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Git<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Docker<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">AWS<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">React<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Ant Design<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Tailwind Css<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Next.js<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">TypeScript<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Node.js<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Express<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">PostgreSQL<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Prisma<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Performance Optimization<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">System Design<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Git<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Docker<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">AWS<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">React<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Ant Design<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Tailwind Css<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Next.js<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">TypeScript<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Node.js<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Express<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">PostgreSQL<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Prisma<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Performance Optimization<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">System Design<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Git<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">Docker<!-- --> <span class=\"text-accent\">/</span></span><span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">AWS<!-- --> <span class=\"text-accent\">/</span></span></div></div>",
+            "fields": {
+                "f0": {
+                    "label": "Technologies (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/div/div",
+                    "default": "PHP\nLaravel\nMySQL\nHTML5\nCSS3\nBootstrap\nJavaScript\njQuery\nAJAX\nRESTful APIs\nJSON\nGit / GitHub\nPostman\nMVC basics",
+                    "item": "<span class=\"font-mono text-sm uppercase tracking-widest text-zinc-600\">React<!-- --> <span class=\"text-accent\">/</span></span>",
+                    "repeat": 3
+                }
+            }
+        },
+        "projects/rest-api-task-manager": {
+            "label": "REST API Task Manager case study",
+            "html": "<article class=\"pt-28 section sm:pt-32\"><div class=\"container-page max-w-3xl\"><a class=\"inline-flex items-center gap-2 text-sm text-zinc-400 hover:text-accent\" href=\"../../projects/\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-left\"><path d=\"m12 19-7-7 7-7\"></path><path d=\"M19 12H5\"></path></svg> All projects</a><div style=\"opacity:0;transform:translateY(18px)\"><p class=\"mt-8 font-mono text-xs uppercase tracking-wider text-accent\">AI Healthcare · Voice AI · SaaS Website<!-- --> · <!-- -->2025</p><h1 class=\"mt-3 text-3xl font-bold text-white sm:text-4xl lg:text-5xl break-anywhere\">Operator Labs Website</h1><p class=\"mt-3 text-zinc-500\">Role: <!-- -->Frontend Developer</p><div class=\"mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap\"><a href=\"https://operatorlabs.ai/\" target=\"_blank\" rel=\"noreferrer\" class=\"btn-primary btn-block-mobile text-sm\">Visit live site <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-external-link\"><path d=\"M15 3h6v6\"></path><path d=\"M10 14 21 3\"></path><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"></path></svg></a></div></div><div style=\"opacity:0;transform:translateY(18px)\"><p class=\"mt-10 text-lg leading-relaxed text-zinc-300\">A professional AI healthcare website for Operator Labs, focused on AI voice agents for healthcare revenue cycle management. The platform presents enterprise-grade voice AI solutions that automate payer calls, insurance follow-ups, prior authorization, patient collections, and healthcare RCM workflows.</p></div><div style=\"opacity:0;transform:translateY(18px)\"><h2 class=\"mt-12 font-display text-2xl font-semibold text-white\">Highlights</h2><ul class=\"mt-5 grid gap-3 sm:grid-cols-2\"><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Healthcare AI SaaS website</li><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Enterprise-focused landing pages</li><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Modern responsive UI</li><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->SEO-friendly structure</li><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Conversion-focused design</li><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Trust &amp; compliance sections (HIPAA, SOC 2, GDPR)</li><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Clean product, use-case, security and blog pages</li></ul></div><div style=\"opacity:0;transform:translateY(18px)\"><h2 class=\"mt-12 font-display text-2xl font-semibold text-white\">Tech stack</h2><div class=\"mt-5 flex flex-wrap gap-2\"><span class=\"tag\">Next.js</span><span class=\"tag\">React.js</span><span class=\"tag\">TypeScript</span><span class=\"tag\">Tailwind CSS</span><span class=\"tag\">SEO</span><span class=\"tag\">Responsive Design</span></div></div></div></article>",
+            "fields": {
+                "f0": {
+                    "label": "List items (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/article/div/div[3]/ul",
+                    "default": "CRUD endpoints using GET, POST, PUT/PATCH and DELETE\nJSON request and response handling\nAuthentication flow and validation\nSearch / filtering and pagination\nPostman endpoint testing\nJavaScript Fetch API integration",
+                    "item": "<li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Healthcare AI SaaS website</li>"
+                },
+                "f1": {
+                    "label": "Technologies (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/article/div/div[4]/div",
+                    "default": "PHP\nMySQL\nJavaScript\nRESTful APIs\nJSON\nPostman",
+                    "item": "<span class=\"tag\">Next.js</span>"
+                },
+                "f2": {
+                    "label": "Link label — All projects",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/a/text()",
+                    "default": " All projects"
+                },
+                "f3": {
+                    "label": "Text — Practical learning project",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[1]/p[1]/text()[1]",
+                    "default": "Practical learning project"
+                },
+                "f4": {
+                    "label": "Text — ",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[1]/p[1]/text()[3]",
+                    "default": ""
+                },
+                "f5": {
+                    "label": "Main heading — REST API Task Manager",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[1]/h1/text()",
+                    "default": "REST API Task Manager"
+                },
+                "f6": {
+                    "label": "Text — Role:",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[1]/p[2]/text()[1]",
+                    "default": "Role: "
+                },
+                "f7": {
+                    "label": "Text — Learning project developer",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[1]/p[2]/text()[2]",
+                    "default": "Learning project developer"
+                },
+                "f8": {
+                    "label": "Link label — ",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[1]/div/a/text()",
+                    "default": ""
+                },
+                "f9": {
+                    "label": "Text — A practical learning project for understanding R",
+                    "type": "textarea",
+                    "path": "/html/body/div/article/div/div[2]/p/text()",
+                    "default": "A practical learning project for understanding REST API development and frontend integration using PHP, MySQL and JavaScript. It covers CRUD endpoints, JSON request/response handling, authentication flow, validation, search/filtering, pagination, Postman testing and JavaScript Fetch API integration."
+                },
+                "f10": {
+                    "label": "Section heading — What the project covers",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[3]/h2/text()",
+                    "default": "What the project covers"
+                },
+                "f11": {
+                    "label": "Section heading — Tech stack",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[4]/h2/text()",
+                    "default": "Tech stack"
+                },
+                "f12": {
+                    "label": "Link destination — ../../projects/",
+                    "type": "url",
+                    "path": "/html/body/div/article/div/a/@href",
+                    "default": "../../projects/"
+                },
+                "f13": {
+                    "label": "Link destination — ",
+                    "type": "url",
+                    "path": "/html/body/div/article/div/div[1]/div/a/@href",
+                    "default": ""
+                }
+            }
+        },
+        "projects/item-f325564358ae4f9b853b8245641a0761": {
+            "label": "Case study: new project",
+            "html": "<article class=\"pt-28 section sm:pt-32\"><div class=\"container-page max-w-3xl\"><a class=\"inline-flex items-center gap-2 text-sm text-zinc-400 hover:text-accent\" href=\"../../projects/\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-left\"><path d=\"m12 19-7-7 7-7\"></path><path d=\"M19 12H5\"></path></svg> All projects</a><div style=\"opacity:0;transform:translateY(18px)\"><p class=\"mt-8 font-mono text-xs uppercase tracking-wider text-accent\">AI Healthcare · Voice AI · SaaS Website<!-- --> · <!-- -->2025</p><h1 class=\"mt-3 text-3xl font-bold text-white sm:text-4xl lg:text-5xl break-anywhere\">Operator Labs Website</h1><p class=\"mt-3 text-zinc-500\">Role: <!-- -->Frontend Developer</p><div class=\"mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap\"><a href=\"https://operatorlabs.ai/\" target=\"_blank\" rel=\"noreferrer\" class=\"btn-primary btn-block-mobile text-sm\">Visit live site <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-external-link\"><path d=\"M15 3h6v6\"></path><path d=\"M10 14 21 3\"></path><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"></path></svg></a></div></div><div style=\"opacity:0;transform:translateY(18px)\"><p class=\"mt-10 text-lg leading-relaxed text-zinc-300\">A professional AI healthcare website for Operator Labs, focused on AI voice agents for healthcare revenue cycle management. The platform presents enterprise-grade voice AI solutions that automate payer calls, insurance follow-ups, prior authorization, patient collections, and healthcare RCM workflows.</p></div><div style=\"opacity:0;transform:translateY(18px)\"><h2 class=\"mt-12 font-display text-2xl font-semibold text-white\">Highlights</h2><ul class=\"mt-5 grid gap-3 sm:grid-cols-2\"><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Healthcare AI SaaS website</li><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Enterprise-focused landing pages</li><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Modern responsive UI</li><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->SEO-friendly structure</li><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Conversion-focused design</li><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Trust &amp; compliance sections (HIPAA, SOC 2, GDPR)</li><li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Clean product, use-case, security and blog pages</li></ul></div><div style=\"opacity:0;transform:translateY(18px)\"><h2 class=\"mt-12 font-display text-2xl font-semibold text-white\">Tech stack</h2><div class=\"mt-5 flex flex-wrap gap-2\"><span class=\"tag\">Next.js</span><span class=\"tag\">React.js</span><span class=\"tag\">TypeScript</span><span class=\"tag\">Tailwind CSS</span><span class=\"tag\">SEO</span><span class=\"tag\">Responsive Design</span></div></div></div></article>",
+            "fields": {
+                "f0": {
+                    "label": "List items (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/article/div/div[3]/ul",
+                    "default": "CRUD endpoints using GET, POST, PUT/PATCH and DELETE\nJSON request and response handling\nAuthentication flow and validation\nSearch / filtering and pagination\nPostman endpoint testing\nJavaScript Fetch API integration",
+                    "item": "<li class=\"flex items-start gap-2 text-sm text-zinc-300\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-accent\"><path d=\"M20 6 9 17l-5-5\"></path></svg> <!-- -->Healthcare AI SaaS website</li>"
+                },
+                "f1": {
+                    "label": "Technologies (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/article/div/div[4]/div",
+                    "default": "PHP\nMySQL\nJavaScript\nRESTful APIs\nJSON\nPostman",
+                    "item": "<span class=\"tag\">Next.js</span>"
+                },
+                "f2": {
+                    "label": "Link label — All projects",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/a/text()",
+                    "default": " All projects"
+                },
+                "f3": {
+                    "label": "Text — Practical learning project",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[1]/p[1]/text()[1]",
+                    "default": "Practical learning project"
+                },
+                "f4": {
+                    "label": "Text — ",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[1]/p[1]/text()[3]",
+                    "default": ""
+                },
+                "f5": {
+                    "label": "Main heading — REST API Task Manager",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[1]/h1/text()",
+                    "default": "REST API Task Manager"
+                },
+                "f6": {
+                    "label": "Text — Role:",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[1]/p[2]/text()[1]",
+                    "default": "Role: "
+                },
+                "f7": {
+                    "label": "Text — Learning project developer",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[1]/p[2]/text()[2]",
+                    "default": "Learning project developer"
+                },
+                "f8": {
+                    "label": "Link label — ",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[1]/div/a/text()",
+                    "default": ""
+                },
+                "f9": {
+                    "label": "Text — A practical learning project for understanding R",
+                    "type": "textarea",
+                    "path": "/html/body/div/article/div/div[2]/p/text()",
+                    "default": "A practical learning project for understanding REST API development and frontend integration using PHP, MySQL and JavaScript. It covers CRUD endpoints, JSON request/response handling, authentication flow, validation, search/filtering, pagination, Postman testing and JavaScript Fetch API integration."
+                },
+                "f10": {
+                    "label": "Section heading — What the project covers",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[3]/h2/text()",
+                    "default": "What the project covers"
+                },
+                "f11": {
+                    "label": "Section heading — Tech stack",
+                    "type": "text",
+                    "path": "/html/body/div/article/div/div[4]/h2/text()",
+                    "default": "Tech stack"
+                },
+                "f12": {
+                    "label": "Link destination — ../../projects/",
+                    "type": "url",
+                    "path": "/html/body/div/article/div/a/@href",
+                    "default": "../../projects/"
+                },
+                "f13": {
+                    "label": "Link destination — ",
+                    "type": "url",
+                    "path": "/html/body/div/article/div/div[1]/div/a/@href",
+                    "default": ""
+                }
+            }
+        }
+    },
+    "items": {
+        "projects-0": {
+            "label": "Projects item",
+            "html": "<article class=\"glass group relative flex flex-col overflow-hidden p-6 transition-colors hover:border-accent/40\" style=\"opacity:0;transform:translateY(24px)\"><div class=\"flex items-start justify-between gap-3\"><span class=\"font-mono text-xs text-accent\">2025</span><a href=\"https://operatorlabs.ai/\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Live site\" class=\"text-zinc-500 transition-colors hover:text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-external-link\"><path d=\"M15 3h6v6\"></path><path d=\"M10 14 21 3\"></path><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"></path></svg></a></div><h3 class=\"mt-4 font-display text-xl font-semibold text-white\">Operator Labs Website</h3><p class=\"mt-1 text-xs font-mono uppercase tracking-wider text-zinc-500\">AI Healthcare · Voice AI · SaaS Website</p><p class=\"mt-4 line-clamp-3 text-sm text-zinc-400\">A professional AI healthcare website for Operator Labs, focused on AI voice agents for healthcare revenue cycle management. The platform presents enterprise-grade voice AI solutions that automate payer calls, insurance follow-ups, prior authorization, patient collections, and healthcare RCM workflows.</p><div class=\"mt-5 flex flex-wrap gap-1.5\"><span class=\"tag\">Next.js</span><span class=\"tag\">React.js</span><span class=\"tag\">TypeScript</span><span class=\"tag\">Tailwind CSS</span></div><a class=\"mt-6 inline-flex items-center gap-1 text-sm font-medium text-accent\" href=\"../projects/operator-labs-website/\">Case study <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a></article>",
+            "fields": {
+                "f0": {
+                    "label": "Technologies (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/article/div[2]",
+                    "default": "Next.js\nReact.js\nTypeScript\nTailwind CSS",
+                    "item": "<span class=\"tag\">Next.js</span>"
+                },
+                "f1": {
+                    "label": "Project date / status",
+                    "type": "text",
+                    "path": "/html/body/div/article/div[1]/span/text()",
+                    "default": "2025"
+                },
+                "f2": {
+                    "label": "Title — Project name",
+                    "type": "text",
+                    "path": "/html/body/div/article/h3/text()",
+                    "default": "Operator Labs Website"
+                },
+                "f3": {
+                    "label": "Category",
+                    "type": "text",
+                    "path": "/html/body/div/article/p[1]/text()",
+                    "default": "AI Healthcare · Voice AI · SaaS Website"
+                },
+                "f4": {
+                    "label": "Project description",
+                    "type": "textarea",
+                    "path": "/html/body/div/article/p[2]/text()",
+                    "default": "A professional AI healthcare website for Operator Labs, focused on AI voice agents for healthcare revenue cycle management. The platform presents enterprise-grade voice AI solutions that automate payer calls, insurance follow-ups, prior authorization, patient collections, and healthcare RCM workflows."
+                },
+                "f5": {
+                    "label": "Case-study button label",
+                    "type": "text",
+                    "path": "/html/body/div/article/a/text()",
+                    "default": "Case study "
+                },
+                "f6": {
+                    "label": "Live URL (leave blank if unavailable)",
+                    "type": "url",
+                    "path": "/html/body/div/article/div[1]/a/@href",
+                    "default": "https://operatorlabs.ai/"
+                },
+                "f7": {
+                    "label": "Case-study destination",
+                    "type": "url",
+                    "path": "/html/body/div/article/a/@href",
+                    "default": "../projects/operator-labs-website/"
+                }
+            }
+        },
+        "projects-1": {
+            "label": "Projects item",
+            "html": "<article class=\"glass group relative flex flex-col overflow-hidden p-6 transition-colors hover:border-accent/40\" style=\"opacity:0;transform:translateY(24px)\"><div class=\"flex items-start justify-between gap-3\"><span class=\"font-mono text-xs text-accent\">2025</span><a href=\"https://voice.operatorlabs.ai/\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Live site\" class=\"text-zinc-500 transition-colors hover:text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-external-link\"><path d=\"M15 3h6v6\"></path><path d=\"M10 14 21 3\"></path><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"></path></svg></a></div><h3 class=\"mt-4 font-display text-xl font-semibold text-white\">Operator Labs Voice AI Platform</h3><p class=\"mt-1 text-xs font-mono uppercase tracking-wider text-zinc-500\">Voice AI Platform · SaaS Dashboard · AI Automation</p><p class=\"mt-4 line-clamp-3 text-sm text-zinc-400\">A voice AI platform experience for Operator Labs, designed around AI-powered calling, healthcare workflow automation, call intelligence, and operational efficiency. Supports AI agents handling payer calls, patient collections, call documentation, and workflow execution.</p><div class=\"mt-5 flex flex-wrap gap-1.5\"><span class=\"tag\">React.js</span><span class=\"tag\">Next.js</span><span class=\"tag\">TypeScript</span><span class=\"tag\">Tailwind CSS</span></div><a class=\"mt-6 inline-flex items-center gap-1 text-sm font-medium text-accent\" href=\"../projects/operator-labs-voice-ai-platform/\">Case study <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a></article>",
+            "fields": {
+                "f0": {
+                    "label": "Technologies (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/article/div[2]",
+                    "default": "React.js\nNext.js\nTypeScript\nTailwind CSS",
+                    "item": "<span class=\"tag\">React.js</span>"
+                },
+                "f1": {
+                    "label": "Project date / status",
+                    "type": "text",
+                    "path": "/html/body/div/article/div[1]/span/text()",
+                    "default": "2025"
+                },
+                "f2": {
+                    "label": "Title — Project name",
+                    "type": "text",
+                    "path": "/html/body/div/article/h3/text()",
+                    "default": "Operator Labs Voice AI Platform"
+                },
+                "f3": {
+                    "label": "Category",
+                    "type": "text",
+                    "path": "/html/body/div/article/p[1]/text()",
+                    "default": "Voice AI Platform · SaaS Dashboard · AI Automation"
+                },
+                "f4": {
+                    "label": "Project description",
+                    "type": "textarea",
+                    "path": "/html/body/div/article/p[2]/text()",
+                    "default": "A voice AI platform experience for Operator Labs, designed around AI-powered calling, healthcare workflow automation, call intelligence, and operational efficiency. Supports AI agents handling payer calls, patient collections, call documentation, and workflow execution."
+                },
+                "f5": {
+                    "label": "Case-study button label",
+                    "type": "text",
+                    "path": "/html/body/div/article/a/text()",
+                    "default": "Case study "
+                },
+                "f6": {
+                    "label": "Live URL (leave blank if unavailable)",
+                    "type": "url",
+                    "path": "/html/body/div/article/div[1]/a/@href",
+                    "default": "https://voice.operatorlabs.ai/"
+                },
+                "f7": {
+                    "label": "Case-study destination",
+                    "type": "url",
+                    "path": "/html/body/div/article/a/@href",
+                    "default": "../projects/operator-labs-voice-ai-platform/"
+                }
+            }
+        },
+        "projects-2": {
+            "label": "Projects item",
+            "html": "<article class=\"glass group relative flex flex-col overflow-hidden p-6 transition-colors hover:border-accent/40\" style=\"opacity:0;transform:translateY(24px)\"><div class=\"flex items-start justify-between gap-3\"><span class=\"font-mono text-xs text-accent\">2026</span><a href=\"https://rwfglobal.org/\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Live site\" class=\"text-zinc-500 transition-colors hover:text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-external-link\"><path d=\"M15 3h6v6\"></path><path d=\"M10 14 21 3\"></path><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"></path></svg></a></div><h3 class=\"mt-4 font-display text-xl font-semibold text-white\">Raheem Ud Din Naeem Welfare Foundation</h3><p class=\"mt-1 text-xs font-mono uppercase tracking-wider text-zinc-500\">Full Stack Donation Platform</p><p class=\"mt-4 line-clamp-3 text-sm text-zinc-400\">A full-stack donation platform for a welfare foundation supporting donations, donors, programs, payment initiation, bank-transfer instructions, JazzCash/Easypaisa-ready architecture, admin review, and future subscription support.</p><div class=\"mt-5 flex flex-wrap gap-1.5\"><span class=\"tag\">Node.js</span><span class=\"tag\">Express.js</span><span class=\"tag\">PostgreSQL</span><span class=\"tag\">Prisma</span></div><a class=\"mt-6 inline-flex items-center gap-1 text-sm font-medium text-accent\" href=\"../projects/donation-welfare-platform/\">Case study <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a></article>",
+            "fields": {
+                "f0": {
+                    "label": "Technologies (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/article/div[2]",
+                    "default": "Node.js\nExpress.js\nPostgreSQL\nPrisma",
+                    "item": "<span class=\"tag\">Node.js</span>"
+                },
+                "f1": {
+                    "label": "Project date / status",
+                    "type": "text",
+                    "path": "/html/body/div/article/div[1]/span/text()",
+                    "default": "2026"
+                },
+                "f2": {
+                    "label": "Title — Project name",
+                    "type": "text",
+                    "path": "/html/body/div/article/h3/text()",
+                    "default": "Raheem Ud Din Naeem Welfare Foundation"
+                },
+                "f3": {
+                    "label": "Category",
+                    "type": "text",
+                    "path": "/html/body/div/article/p[1]/text()",
+                    "default": "Full Stack Donation Platform"
+                },
+                "f4": {
+                    "label": "Project description",
+                    "type": "textarea",
+                    "path": "/html/body/div/article/p[2]/text()",
+                    "default": "A full-stack donation platform for a welfare foundation supporting donations, donors, programs, payment initiation, bank-transfer instructions, JazzCash/Easypaisa-ready architecture, admin review, and future subscription support."
+                },
+                "f5": {
+                    "label": "Case-study button label",
+                    "type": "text",
+                    "path": "/html/body/div/article/a/text()",
+                    "default": "Case study "
+                },
+                "f6": {
+                    "label": "Live URL (leave blank if unavailable)",
+                    "type": "url",
+                    "path": "/html/body/div/article/div[1]/a/@href",
+                    "default": "https://rwfglobal.org/"
+                },
+                "f7": {
+                    "label": "Case-study destination",
+                    "type": "url",
+                    "path": "/html/body/div/article/a/@href",
+                    "default": "../projects/donation-welfare-platform/"
+                }
+            }
+        },
+        "projects-3": {
+            "label": "Projects item",
+            "html": "<article class=\"glass group relative flex flex-col overflow-hidden p-6 transition-colors hover:border-accent/40\" style=\"opacity:0;transform:translateY(24px)\"><div class=\"flex items-start justify-between gap-3\"><span class=\"font-mono text-xs text-accent\">2023</span><a href=\"https://greatbritaincars.co.uk/\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Live site\" class=\"text-zinc-500 transition-colors hover:text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-external-link\"><path d=\"M15 3h6v6\"></path><path d=\"M10 14 21 3\"></path><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"></path></svg></a></div><h3 class=\"mt-4 font-display text-xl font-semibold text-white\">Great Britain Cars</h3><p class=\"mt-1 text-xs font-mono uppercase tracking-wider text-zinc-500\">UK Airport Transfer · Booking Platform</p><p class=\"mt-4 line-clamp-3 text-sm text-zinc-400\">A UK airport-transfer booking website with a quote/booking flow, route and airport pages, and a conversion-focused, mobile-first interface.</p><div class=\"mt-5 flex flex-wrap gap-1.5\"><span class=\"tag\">React.js</span><span class=\"tag\">Next.js</span><span class=\"tag\">Tailwind CSS</span><span class=\"tag\">Responsive Design</span></div><a class=\"mt-6 inline-flex items-center gap-1 text-sm font-medium text-accent\" href=\"../projects/great-britain-cars/\">Case study <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a></article>",
+            "fields": {
+                "f0": {
+                    "label": "Technologies (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/article/div[2]",
+                    "default": "React.js\nNext.js\nTailwind CSS\nResponsive Design",
+                    "item": "<span class=\"tag\">React.js</span>"
+                },
+                "f1": {
+                    "label": "Project date / status",
+                    "type": "text",
+                    "path": "/html/body/div/article/div[1]/span/text()",
+                    "default": "2023"
+                },
+                "f2": {
+                    "label": "Title — Project name",
+                    "type": "text",
+                    "path": "/html/body/div/article/h3/text()",
+                    "default": "Great Britain Cars"
+                },
+                "f3": {
+                    "label": "Category",
+                    "type": "text",
+                    "path": "/html/body/div/article/p[1]/text()",
+                    "default": "UK Airport Transfer · Booking Platform"
+                },
+                "f4": {
+                    "label": "Project description",
+                    "type": "textarea",
+                    "path": "/html/body/div/article/p[2]/text()",
+                    "default": "A UK airport-transfer booking website with a quote/booking flow, route and airport pages, and a conversion-focused, mobile-first interface."
+                },
+                "f5": {
+                    "label": "Case-study button label",
+                    "type": "text",
+                    "path": "/html/body/div/article/a/text()",
+                    "default": "Case study "
+                },
+                "f6": {
+                    "label": "Live URL (leave blank if unavailable)",
+                    "type": "url",
+                    "path": "/html/body/div/article/div[1]/a/@href",
+                    "default": "https://greatbritaincars.co.uk/"
+                },
+                "f7": {
+                    "label": "Case-study destination",
+                    "type": "url",
+                    "path": "/html/body/div/article/a/@href",
+                    "default": "../projects/great-britain-cars/"
+                }
+            }
+        },
+        "projects-4": {
+            "label": "Projects item",
+            "html": "<article class=\"glass group relative flex flex-col overflow-hidden p-6 transition-colors hover:border-accent/40\" style=\"opacity:0;transform:translateY(24px)\"><div class=\"flex items-start justify-between gap-3\"><span class=\"font-mono text-xs text-accent\">2023</span><a href=\"https://www.haleemghar.com.pk/\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Live site\" class=\"text-zinc-500 transition-colors hover:text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-external-link\"><path d=\"M15 3h6v6\"></path><path d=\"M10 14 21 3\"></path><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"></path></svg></a></div><h3 class=\"mt-4 font-display text-xl font-semibold text-white\">Haleem Ghar</h3><p class=\"mt-1 text-xs font-mono uppercase tracking-wider text-zinc-500\">Restaurant / Brand Website</p><p class=\"mt-4 line-clamp-3 text-sm text-zinc-400\">A clean, responsive brand website for a food business with a modern, appetising visual identity.</p><div class=\"mt-5 flex flex-wrap gap-1.5\"><span class=\"tag\">React.js</span><span class=\"tag\">Tailwind CSS</span><span class=\"tag\">Responsive Design</span></div><a class=\"mt-6 inline-flex items-center gap-1 text-sm font-medium text-accent\" href=\"../projects/haleem-ghar/\">Case study <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a></article>",
+            "fields": {
+                "f0": {
+                    "label": "Technologies (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/article/div[2]",
+                    "default": "React.js\nTailwind CSS\nResponsive Design",
+                    "item": "<span class=\"tag\">React.js</span>"
+                },
+                "f1": {
+                    "label": "Project date / status",
+                    "type": "text",
+                    "path": "/html/body/div/article/div[1]/span/text()",
+                    "default": "2023"
+                },
+                "f2": {
+                    "label": "Title — Project name",
+                    "type": "text",
+                    "path": "/html/body/div/article/h3/text()",
+                    "default": "Haleem Ghar"
+                },
+                "f3": {
+                    "label": "Category",
+                    "type": "text",
+                    "path": "/html/body/div/article/p[1]/text()",
+                    "default": "Restaurant / Brand Website"
+                },
+                "f4": {
+                    "label": "Project description",
+                    "type": "textarea",
+                    "path": "/html/body/div/article/p[2]/text()",
+                    "default": "A clean, responsive brand website for a food business with a modern, appetising visual identity."
+                },
+                "f5": {
+                    "label": "Case-study button label",
+                    "type": "text",
+                    "path": "/html/body/div/article/a/text()",
+                    "default": "Case study "
+                },
+                "f6": {
+                    "label": "Live URL (leave blank if unavailable)",
+                    "type": "url",
+                    "path": "/html/body/div/article/div[1]/a/@href",
+                    "default": "https://www.haleemghar.com.pk/"
+                },
+                "f7": {
+                    "label": "Case-study destination",
+                    "type": "url",
+                    "path": "/html/body/div/article/a/@href",
+                    "default": "../projects/haleem-ghar/"
+                }
+            }
+        },
+        "projects-5": {
+            "label": "Projects item",
+            "html": "<article class=\"glass group relative flex flex-col overflow-hidden p-6 transition-colors hover:border-accent/40\" style=\"opacity:0;transform:translateY(24px)\"><div class=\"flex items-start justify-between gap-3\"><span class=\"font-mono text-xs text-accent\">2024</span><a href=\"https://forloops.co/\" target=\"_blank\" rel=\"noreferrer\" aria-label=\"Live site\" class=\"text-zinc-500 transition-colors hover:text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-external-link\"><path d=\"M15 3h6v6\"></path><path d=\"M10 14 21 3\"></path><path d=\"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6\"></path></svg></a></div><h3 class=\"mt-4 font-display text-xl font-semibold text-white\">ForLoops</h3><p class=\"mt-1 text-xs font-mono uppercase tracking-wider text-zinc-500\">Company / Product Website</p><p class=\"mt-4 line-clamp-3 text-sm text-zinc-400\">A product/agency website with a component-driven frontend and smooth, accessible interactions.</p><div class=\"mt-5 flex flex-wrap gap-1.5\"><span class=\"tag\">React.js</span><span class=\"tag\">Next.js</span><span class=\"tag\">Tailwind CSS</span></div><a class=\"mt-6 inline-flex items-center gap-1 text-sm font-medium text-accent\" href=\"../projects/forloops/\">Case study <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg></a></article>",
+            "fields": {
+                "f0": {
+                    "label": "Technologies (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/article/div[2]",
+                    "default": "React.js\nNext.js\nTailwind CSS",
+                    "item": "<span class=\"tag\">React.js</span>"
+                },
+                "f1": {
+                    "label": "Project date / status",
+                    "type": "text",
+                    "path": "/html/body/div/article/div[1]/span/text()",
+                    "default": "2024"
+                },
+                "f2": {
+                    "label": "Title — Project name",
+                    "type": "text",
+                    "path": "/html/body/div/article/h3/text()",
+                    "default": "ForLoops"
+                },
+                "f3": {
+                    "label": "Category",
+                    "type": "text",
+                    "path": "/html/body/div/article/p[1]/text()",
+                    "default": "Company / Product Website"
+                },
+                "f4": {
+                    "label": "Project description",
+                    "type": "textarea",
+                    "path": "/html/body/div/article/p[2]/text()",
+                    "default": "A product/agency website with a component-driven frontend and smooth, accessible interactions."
+                },
+                "f5": {
+                    "label": "Case-study button label",
+                    "type": "text",
+                    "path": "/html/body/div/article/a/text()",
+                    "default": "Case study "
+                },
+                "f6": {
+                    "label": "Live URL (leave blank if unavailable)",
+                    "type": "url",
+                    "path": "/html/body/div/article/div[1]/a/@href",
+                    "default": "https://forloops.co/"
+                },
+                "f7": {
+                    "label": "Case-study destination",
+                    "type": "url",
+                    "path": "/html/body/div/article/a/@href",
+                    "default": "../projects/forloops/"
+                }
+            }
+        },
+        "skills-0": {
+            "label": "Skills item",
+            "html": "<div style=\"opacity:0;transform:translateY(18px)\"><div class=\"glass h-full p-6\"><p class=\"font-display text-lg font-semibold text-white\">Frontend</p><div class=\"mt-4 h-px w-10 bg-accent\"></div><ul class=\"mt-5 flex flex-wrap gap-2\"><li class=\"tag\">React.js</li><li class=\"tag\">Next.js</li><li class=\"tag\">TypeScript</li><li class=\"tag\">JavaScript ES6+</li><li class=\"tag\">Tailwind CSS</li><li class=\"tag\">Ant Design</li><li class=\"tag\">Redux Toolkit</li><li class=\"tag\">React Query</li><li class=\"tag\">React Hook Form</li><li class=\"tag\">Framer Motion</li><li class=\"tag\">Responsive UI</li><li class=\"tag\">SEO-friendly frontend</li></ul></div></div>",
+            "fields": {
+                "f0": {
+                    "label": "Skills (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/div/div/ul",
+                    "default": "React.js\nNext.js\nTypeScript\nJavaScript ES6+\nTailwind CSS\nAnt Design\nRedux Toolkit\nReact Query\nReact Hook Form\nFramer Motion\nResponsive UI\nSEO-friendly frontend",
+                    "item": "<li class=\"tag\">React.js</li>"
+                },
+                "f1": {
+                    "label": "Skill group name",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/p/text()",
+                    "default": "Frontend"
+                }
+            }
+        },
+        "skills-1": {
+            "label": "Skills item",
+            "html": "<div style=\"opacity:0;transform:translateY(18px)\"><div class=\"glass h-full p-6\"><p class=\"font-display text-lg font-semibold text-white\">Backend</p><div class=\"mt-4 h-px w-10 bg-accent\"></div><ul class=\"mt-5 flex flex-wrap gap-2\"><li class=\"tag\">Node.js</li><li class=\"tag\">Express.js</li><li class=\"tag\">PostgreSQL</li><li class=\"tag\">Prisma ORM</li><li class=\"tag\">REST APIs</li><li class=\"tag\">JWT Auth</li><li class=\"tag\">Role-based access</li><li class=\"tag\">Zod validation</li><li class=\"tag\">Payment gateways</li><li class=\"tag\">File uploads</li><li class=\"tag\">API security</li><li class=\"tag\">Database design</li></ul></div></div>",
+            "fields": {
+                "f0": {
+                    "label": "Skills (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/div/div/ul",
+                    "default": "Node.js\nExpress.js\nPostgreSQL\nPrisma ORM\nREST APIs\nJWT Auth\nRole-based access\nZod validation\nPayment gateways\nFile uploads\nAPI security\nDatabase design",
+                    "item": "<li class=\"tag\">Node.js</li>"
+                },
+                "f1": {
+                    "label": "Skill group name",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/p/text()",
+                    "default": "Backend"
+                }
+            }
+        },
+        "skills-2": {
+            "label": "Skills item",
+            "html": "<div style=\"opacity:0;transform:translateY(18px)\"><div class=\"glass h-full p-6\"><p class=\"font-display text-lg font-semibold text-white\">Tooling &amp; Workflow</p><div class=\"mt-4 h-px w-10 bg-accent\"></div><ul class=\"mt-5 flex flex-wrap gap-2\"><li class=\"tag\">Git / GitHub</li><li class=\"tag\">Vercel</li><li class=\"tag\">Postman</li><li class=\"tag\">Docker (basics)</li><li class=\"tag\">CI/CD</li><li class=\"tag\">ESLint / Prettier</li><li class=\"tag\">Jest (basics)</li></ul></div></div>",
+            "fields": {
+                "f0": {
+                    "label": "Skills (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/div/div/ul",
+                    "default": "Git / GitHub\nVercel\nPostman\nDocker (basics)\nCI/CD\nESLint / Prettier\nJest (basics)",
+                    "item": "<li class=\"tag\">Git / GitHub</li>"
+                },
+                "f1": {
+                    "label": "Skill group name",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/p/text()",
+                    "default": "Tooling & Workflow"
+                }
+            }
+        },
+        "services-0": {
+            "label": "Services item",
+            "html": "<div style=\"opacity:0;transform:translateY(18px)\"><div class=\"glass h-full p-7 transition-colors hover:border-accent/40\"><div class=\"grid h-11 w-11 place-items-center rounded-xl bg-accent/10 text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-layers\"><path d=\"m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z\"></path><path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\"></path><path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\"></path></svg></div><h3 class=\"mt-5 font-display text-lg font-semibold text-white\">Full Stack Web Apps</h3><p class=\"mt-2 text-sm text-zinc-400\">End-to-end product builds from database to UI.</p><ul class=\"mt-4 space-y-1.5\"><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>Next.js App Router</li><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>REST APIs &amp; server actions</li><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>PostgreSQL + Prisma</li><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>Auth &amp; RBAC</li></ul></div></div>",
+            "fields": {
+                "f0": {
+                    "label": "Tasks (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/div/div/ul",
+                    "default": "▹Next.js App Router\n▹REST APIs & server actions\n▹PostgreSQL + Prisma\n▹Auth & RBAC",
+                    "item": "<li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>Next.js App Router</li>"
+                },
+                "f1": {
+                    "label": "Title — Contribution area",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/h3/text()",
+                    "default": "Full Stack Web Apps"
+                },
+                "f2": {
+                    "label": "Description",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/p/text()",
+                    "default": "End-to-end product builds from database to UI."
+                }
+            }
+        },
+        "services-1": {
+            "label": "Services item",
+            "html": "<div style=\"opacity:0;transform:translateY(18px)\"><div class=\"glass h-full p-7 transition-colors hover:border-accent/40\"><div class=\"grid h-11 w-11 place-items-center rounded-xl bg-accent/10 text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-code-xml\"><path d=\"m18 16 4-4-4-4\"></path><path d=\"m6 8-4 4 4 4\"></path><path d=\"m14.5 4-5 16\"></path></svg></div><h3 class=\"mt-5 font-display text-lg font-semibold text-white\">Frontend Engineering</h3><p class=\"mt-2 text-sm text-zinc-400\">Pixel-accurate, fast, accessible interfaces.</p><ul class=\"mt-4 space-y-1.5\"><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>React / Next.js</li><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>TypeScript</li><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>Tailwind &amp; design systems</li><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>Animations with Framer Motion</li></ul></div></div>",
+            "fields": {
+                "f0": {
+                    "label": "Tasks (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/div/div/ul",
+                    "default": "▹React / Next.js\n▹TypeScript\n▹Tailwind & design systems\n▹Animations with Framer Motion",
+                    "item": "<li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>React / Next.js</li>"
+                },
+                "f1": {
+                    "label": "Title — Contribution area",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/h3/text()",
+                    "default": "Frontend Engineering"
+                },
+                "f2": {
+                    "label": "Description",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/p/text()",
+                    "default": "Pixel-accurate, fast, accessible interfaces."
+                }
+            }
+        },
+        "services-2": {
+            "label": "Services item",
+            "html": "<div style=\"opacity:0;transform:translateY(18px)\"><div class=\"glass h-full p-7 transition-colors hover:border-accent/40\"><div class=\"grid h-11 w-11 place-items-center rounded-xl bg-accent/10 text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-server\"><rect width=\"20\" height=\"8\" x=\"2\" y=\"2\" rx=\"2\" ry=\"2\"></rect><rect width=\"20\" height=\"8\" x=\"2\" y=\"14\" rx=\"2\" ry=\"2\"></rect><line x1=\"6\" x2=\"6.01\" y1=\"6\" y2=\"6\"></line><line x1=\"6\" x2=\"6.01\" y1=\"18\" y2=\"18\"></line></svg></div><h3 class=\"mt-5 font-display text-lg font-semibold text-white\">Backend &amp; APIs</h3><p class=\"mt-2 text-sm text-zinc-400\">Secure, validated, well-structured services.</p><ul class=\"mt-4 space-y-1.5\"><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>Node.js / Express</li><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>Zod validation</li><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>JWT authentication</li><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>Clean service architecture</li></ul></div></div>",
+            "fields": {
+                "f0": {
+                    "label": "Tasks (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/div/div/ul",
+                    "default": "▹Node.js / Express\n▹Zod validation\n▹JWT authentication\n▹Clean service architecture",
+                    "item": "<li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>Node.js / Express</li>"
+                },
+                "f1": {
+                    "label": "Title — Contribution area",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/h3/text()",
+                    "default": "Backend & APIs"
+                },
+                "f2": {
+                    "label": "Description",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/p/text()",
+                    "default": "Secure, validated, well-structured services."
+                }
+            }
+        },
+        "services-3": {
+            "label": "Services item",
+            "html": "<div style=\"opacity:0;transform:translateY(18px)\"><div class=\"glass h-full p-7 transition-colors hover:border-accent/40\"><div class=\"grid h-11 w-11 place-items-center rounded-xl bg-accent/10 text-accent\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewbox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-layout-dashboard\"><rect width=\"7\" height=\"9\" x=\"3\" y=\"3\" rx=\"1\"></rect><rect width=\"7\" height=\"5\" x=\"14\" y=\"3\" rx=\"1\"></rect><rect width=\"7\" height=\"9\" x=\"14\" y=\"12\" rx=\"1\"></rect><rect width=\"7\" height=\"5\" x=\"3\" y=\"16\" rx=\"1\"></rect></svg></div><h3 class=\"mt-5 font-display text-lg font-semibold text-white\">SaaS Dashboards</h3><p class=\"mt-2 text-sm text-zinc-400\">Data-dense admin &amp; analytics interfaces.</p><ul class=\"mt-4 space-y-1.5\"><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>CRUD systems</li><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>Charts &amp; tables</li><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>Role-based access</li><li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>Payment integration</li></ul></div></div>",
+            "fields": {
+                "f0": {
+                    "label": "Tasks (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/div/div/ul",
+                    "default": "▹CRUD systems\n▹Charts & tables\n▹Role-based access\n▹Payment integration",
+                    "item": "<li class=\"flex items-center gap-2 text-sm text-zinc-300\"><span class=\"text-accent\">▹</span>CRUD systems</li>"
+                },
+                "f1": {
+                    "label": "Title — Contribution area",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/h3/text()",
+                    "default": "SaaS Dashboards"
+                },
+                "f2": {
+                    "label": "Description",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/p/text()",
+                    "default": "Data-dense admin & analytics interfaces."
+                }
+            }
+        },
+        "experience-0": {
+            "label": "Experience item",
+            "html": "<div style=\"opacity:0;transform:translateY(18px)\"><div class=\"relative border-l border-white/10 pb-10 pl-8 last:pb-3\"><span class=\"absolute -left-[7px] top-1.5 h-3.5 w-3.5 rounded-full border-2 border-accent bg-ink\"></span><p class=\"font-mono text-xs text-accent\"> Nov 2025 — Present</p><h3 class=\"mt-2 font-display text-xl font-semibold text-white\">Full Stack Developer</h3><p class=\"text-sm text-zinc-500\">QMH Technologies (Private) Limited </p><p class=\"mt-3 text-sm text-zinc-400\">Building full-stack products: Next.js frontends backed by Node/Express + PostgreSQL APIs with auth, validation and payment flows.</p><div class=\"mt-4 flex flex-wrap gap-1.5\"><span class=\"tag\">Next.js</span><span class=\"tag\">Node.js</span><span class=\"tag\">Express</span><span class=\"tag\">PostgreSQL</span><span class=\"tag\">Prisma</span><span class=\"tag\">Zod</span><span class=\"tag\">JWT</span></div></div></div>",
+            "fields": {
+                "f0": {
+                    "label": "Technologies (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/div/div/div",
+                    "default": "Next.js\nNode.js\nExpress\nPostgreSQL\nPrisma\nZod\nJWT",
+                    "item": "<span class=\"tag\">Next.js</span>"
+                },
+                "f1": {
+                    "label": "Employment dates",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/p[1]/text()",
+                    "default": " Nov 2025 — Present"
+                },
+                "f2": {
+                    "label": "Title — Job role",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/h3/text()",
+                    "default": "Full Stack Developer"
+                },
+                "f3": {
+                    "label": "Company",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/p[2]/text()",
+                    "default": "QMH Technologies (Private) Limited "
+                },
+                "f4": {
+                    "label": "Responsibilities",
+                    "type": "textarea",
+                    "path": "/html/body/div/div/div/p[3]/text()",
+                    "default": "Building full-stack products: Next.js frontends backed by Node/Express + PostgreSQL APIs with auth, validation and payment flows."
+                }
+            }
+        },
+        "experience-1": {
+            "label": "Experience item",
+            "html": "<div style=\"opacity:0;transform:translateY(18px)\"><div class=\"relative border-l border-white/10 pb-10 pl-8 last:pb-3\"><span class=\"absolute -left-[7px] top-1.5 h-3.5 w-3.5 rounded-full border-2 border-accent bg-ink\"></span><p class=\"font-mono text-xs text-accent\"> Apr 2024 — 2025</p><h3 class=\"mt-2 font-display text-xl font-semibold text-white\">Frontend Developer</h3><p class=\"text-sm text-zinc-500\">Operator Labs / Agency work</p><p class=\"mt-3 text-sm text-zinc-400\">Delivered enterprise SaaS landing pages and platform UIs with a focus on performance, SEO and conversion.</p><div class=\"mt-4 flex flex-wrap gap-1.5\"><span class=\"tag\">React.js</span><span class=\"tag\">Next.js</span><span class=\"tag\">TypeScript</span><span class=\"tag\">Tailwind CSS</span><span class=\"tag\">Redux</span><span class=\"tag\">React Query</span><span class=\"tag\">Ant Design</span><span class=\"tag\">Redux Toolkit</span><span class=\"tag\">REST APIs</span><span class=\"tag\">Git</span></div></div></div>",
+            "fields": {
+                "f0": {
+                    "label": "Technologies (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/div/div/div",
+                    "default": "React.js\nNext.js\nTypeScript\nTailwind CSS\nRedux\nReact Query\nAnt Design\nRedux Toolkit\nREST APIs\nGit",
+                    "item": "<span class=\"tag\">React.js</span>"
+                },
+                "f1": {
+                    "label": "Employment dates",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/p[1]/text()",
+                    "default": " Apr 2024 — 2025"
+                },
+                "f2": {
+                    "label": "Title — Job role",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/h3/text()",
+                    "default": "Frontend Developer"
+                },
+                "f3": {
+                    "label": "Company",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/p[2]/text()",
+                    "default": "Operator Labs / Agency work"
+                },
+                "f4": {
+                    "label": "Responsibilities",
+                    "type": "textarea",
+                    "path": "/html/body/div/div/div/p[3]/text()",
+                    "default": "Delivered enterprise SaaS landing pages and platform UIs with a focus on performance, SEO and conversion."
+                }
+            }
+        },
+        "experience-2": {
+            "label": "Experience item",
+            "html": "<div style=\"opacity:0;transform:translateY(18px)\"><div class=\"relative border-l border-white/10 pb-10 pl-8 last:pb-3\"><span class=\"absolute -left-[7px] top-1.5 h-3.5 w-3.5 rounded-full border-2 border-accent bg-ink\"></span><p class=\"font-mono text-xs text-accent\">2023 — 2024</p><h3 class=\"mt-2 font-display text-xl font-semibold text-white\"> Junior Frontend Developer</h3><p class=\"text-sm text-zinc-500\">QMH Technologies (Private) Limited</p><p class=\"mt-3 text-sm text-zinc-400\">Delivered enterprise SaaS landing pages and platform UIs with a focus on performance, SEO and conversion.</p><div class=\"mt-4 flex flex-wrap gap-1.5\"><span class=\"tag\">HTML</span><span class=\"tag\">Vanilla JS</span><span class=\"tag\">React.js</span><span class=\"tag\">Next.js</span><span class=\"tag\">TypeScript</span><span class=\"tag\">Tailwind CSS</span><span class=\"tag\">Redux</span><span class=\"tag\">React Query</span></div></div></div>",
+            "fields": {
+                "f0": {
+                    "label": "Technologies (one per line)",
+                    "type": "lines",
+                    "path": "/html/body/div/div/div/div",
+                    "default": "HTML\nVanilla JS\nReact.js\nNext.js\nTypeScript\nTailwind CSS\nRedux\nReact Query",
+                    "item": "<span class=\"tag\">HTML</span>"
+                },
+                "f1": {
+                    "label": "Employment dates",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/p[1]/text()",
+                    "default": "2023 — 2024"
+                },
+                "f2": {
+                    "label": "Title — Job role",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/h3/text()",
+                    "default": " Junior Frontend Developer"
+                },
+                "f3": {
+                    "label": "Company",
+                    "type": "text",
+                    "path": "/html/body/div/div/div/p[2]/text()",
+                    "default": "QMH Technologies (Private) Limited"
+                },
+                "f4": {
+                    "label": "Responsibilities",
+                    "type": "textarea",
+                    "path": "/html/body/div/div/div/p[3]/text()",
+                    "default": "Delivered enterprise SaaS landing pages and platform UIs with a focus on performance, SEO and conversion."
+                }
+            }
+        }
+    },
+    "pages": {
+        "projects": {
+            "label": "Projects",
+            "html": "<!DOCTYPE html>\n<html lang=\"en\" class=\"__variable_a4bae9 __variable_9c618b __variable_3c557b\"><head><meta charset=\"utf-8\">\n<!-- This site is hosted on Netlify. Anyone can build and deploy a site\n     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=68047ec5-e76d-4a9a-a3f1-c4c839989ad5\n     Netlify hosting facts for this site: static/SSR served via Netlify Edge. --><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"preload\" href=\"../_next/static/media/313510e2713fb214-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"../_next/static/media/9d5a263311222317-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"../_next/static/media/bb3ef058b751a6ad-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"stylesheet\" href=\"../_next/static/css/66069b342bbe9d96.css\" data-precedence=\"next\"><title>Projects &middot; Imran Ali</title><meta name=\"description\" content=\"Selected full-stack and frontend projects.\"><meta name=\"application-name\" content=\"Imran Ali &mdash; Portfolio\"><link rel=\"author\" href=\"https://imran-ali.dev\"><meta name=\"author\" content=\"Muhammad Imran Ali\"><meta name=\"keywords\" content=\"Hassnain Ali,Junior PHP Developer,Rawalpindi,PHP,Laravel,MySQL,RESTful APIs,JavaScript,jQuery,AJAX,Computer Science\"><meta name=\"creator\" content=\"Muhammad Imran Ali\"><meta name=\"publisher\" content=\"Muhammad Imran Ali\"><meta name=\"robots\" content=\"index, follow\"><meta name=\"googlebot\" content=\"index, follow, max-image-preview:large, max-snippet:-1\"><meta name=\"category\" content=\"technology\"><link rel=\"canonical\" href=\"https://imran-ali.dev/projects\"><meta property=\"og:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\"><meta property=\"og:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\"><meta property=\"og:url\" content=\"https://imran-ali.dev\"><meta property=\"og:site_name\" content=\"Imran Ali &mdash; Portfolio\"><meta property=\"og:locale\" content=\"en_US\"><meta property=\"og:image\" content=\"https://imran-ali.dev/og.png\"><meta property=\"og:image:width\" content=\"1200\"><meta property=\"og:image:height\" content=\"630\"><meta property=\"og:image:alt\" content=\"Muhammad Imran Ali &mdash; Full Stack Developer\"><meta property=\"og:type\" content=\"website\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\"><meta name=\"twitter:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\"><meta name=\"twitter:image\" content=\"https://imran-ali.dev/og.png\"><link rel=\"icon\" href=\"../favicon.ico\" type=\"image/x-icon\" sizes=\"16x16\"><link rel=\"icon\" href=\"../icon.svg\" type=\"image/svg+xml\" sizes=\"any\"><link rel=\"apple-touch-icon\" href=\"../apple-icon.png\" type=\"image/png\" sizes=\"180x180\"><meta name=\"next-size-adjust\"><link rel=\"stylesheet\" href=\"../site.css\"></head><body class=\"relative min-h-screen\"><div data-cms-block=\"header\"></div><div data-cms-block=\"social\"></div><main class=\"relative z-10\"><div class=\"pt-24 sm:pt-28\"><div data-cms-block=\"projects\" data-cms-project-page=\"1\"></div></div></main><div data-cms-block=\"footer\"></div><script src=\"../site.js\" defer></script></body></html>\n",
+            "title": "Projects | Hassnain Ali"
+        },
+        "": {
+            "label": "Home",
+            "html": "<!DOCTYPE html>\n<html lang=\"en\" class=\"__variable_a4bae9 __variable_9c618b __variable_3c557b\"><head><meta charset=\"utf-8\">\n<!-- This site is hosted on Netlify. Anyone can build and deploy a site\n     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=68047ec5-e76d-4a9a-a3f1-c4c839989ad5\n     Netlify hosting facts for this site: static/SSR served via Netlify Edge. --><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"preload\" href=\"./_next/static/media/313510e2713fb214-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"./_next/static/media/9d5a263311222317-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"./_next/static/media/bb3ef058b751a6ad-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" as=\"image\" fetchpriority=\"high\"><link rel=\"stylesheet\" href=\"./_next/static/css/66069b342bbe9d96.css\" data-precedence=\"next\"><title>Imran Ali | Software Engineer &amp; Full Stack Developer</title><meta name=\"description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\"><meta name=\"application-name\" content=\"Imran Ali &mdash; Portfolio\"><link rel=\"author\" href=\"https://imran-ali.dev\"><meta name=\"author\" content=\"Muhammad Imran Ali\"><meta name=\"keywords\" content=\"Hassnain Ali,Junior PHP Developer,Rawalpindi,PHP,Laravel,MySQL,RESTful APIs,JavaScript,jQuery,AJAX,Computer Science\"><meta name=\"creator\" content=\"Muhammad Imran Ali\"><meta name=\"publisher\" content=\"Muhammad Imran Ali\"><meta name=\"robots\" content=\"index, follow\"><meta name=\"googlebot\" content=\"index, follow, max-image-preview:large, max-snippet:-1\"><meta name=\"category\" content=\"technology\"><link rel=\"canonical\" href=\"https://imran-ali.dev\"><meta property=\"og:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\"><meta property=\"og:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\"><meta property=\"og:url\" content=\"https://imran-ali.dev\"><meta property=\"og:site_name\" content=\"Imran Ali &mdash; Portfolio\"><meta property=\"og:locale\" content=\"en_US\"><meta property=\"og:image\" content=\"https://imran-ali.dev/og.png\"><meta property=\"og:image:width\" content=\"1200\"><meta property=\"og:image:height\" content=\"630\"><meta property=\"og:image:alt\" content=\"Muhammad Imran Ali &mdash; Full Stack Developer\"><meta property=\"og:type\" content=\"website\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\"><meta name=\"twitter:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\"><meta name=\"twitter:image\" content=\"https://imran-ali.dev/og.png\"><link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\" sizes=\"16x16\"><link rel=\"icon\" href=\"./icon.svg\" type=\"image/svg+xml\" sizes=\"any\"><link rel=\"apple-touch-icon\" href=\"./apple-icon.png\" type=\"image/png\" sizes=\"180x180\"><meta name=\"next-size-adjust\"><link rel=\"stylesheet\" href=\"./site.css\"></head><body class=\"relative min-h-screen\"><div data-cms-block=\"header\"></div><div data-cms-block=\"social\"></div><main class=\"relative z-10\"><div data-cms-block=\"hero\"></div><div data-cms-block=\"about\"></div><div data-cms-block=\"skills\"></div><div data-cms-block=\"projects-home\"></div><div data-cms-block=\"services\"></div><div data-cms-block=\"experience\"></div><div data-cms-block=\"cta\"></div></main><div data-cms-block=\"footer\"></div><script src=\"./site.js\" defer></script></body></html>\n",
+            "title": "Hassnain Ali | Junior PHP Developer"
+        },
+        "about": {
+            "label": "About",
+            "html": "<!DOCTYPE html>\n<html lang=\"en\" class=\"__variable_a4bae9 __variable_9c618b __variable_3c557b\">\n  <head>\n    <meta charset=\"utf-8\">\n    <!-- This site is hosted on Netlify. Anyone can build and deploy a site\n     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=68047ec5-e76d-4a9a-a3f1-c4c839989ad5\n     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"preload\" href=\"../_next/static/media/313510e2713fb214-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n    <link rel=\"preload\" href=\"../_next/static/media/9d5a263311222317-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n    <link rel=\"preload\" href=\"../_next/static/media/bb3ef058b751a6ad-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n    <link rel=\"stylesheet\" href=\"../_next/static/css/66069b342bbe9d96.css\" data-precedence=\"next\">\n    <title>About &middot; Hassnain Ali</title>\n    <meta name=\"description\" content=\"Backend Developer with 2+ years building scalable web apps.\">\n    <meta name=\"application-name\" content=\"Imran Ali &mdash; Portfolio\">\n    <link rel=\"author\" href=\"https://imran-ali.dev\">\n    <meta name=\"author\" content=\"Muhammad Imran Ali\">\n    <meta name=\"keywords\" content=\"Hassnain Ali,Junior PHP Developer,Rawalpindi,PHP,Laravel,MySQL,RESTful APIs,JavaScript,jQuery,AJAX,Computer Science\">\n    <meta name=\"creator\" content=\"Muhammad Imran Ali\">\n    <meta name=\"publisher\" content=\"Muhammad Imran Ali\">\n    <meta name=\"robots\" content=\"index, follow\">\n    <meta name=\"googlebot\" content=\"index, follow, max-image-preview:large, max-snippet:-1\">\n    <meta name=\"category\" content=\"technology\">\n    <link rel=\"canonical\" href=\"https://imran-ali.dev/about\">\n    <meta property=\"og:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\">\n    <meta property=\"og:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\">\n    <meta property=\"og:url\" content=\"https://imran-ali.dev\">\n    <meta property=\"og:site_name\" content=\"Imran Ali &mdash; Portfolio\">\n    <meta property=\"og:locale\" content=\"en_US\">\n    <meta property=\"og:image\" content=\"https://imran-ali.dev/og.png\">\n    <meta property=\"og:image:width\" content=\"1200\">\n    <meta property=\"og:image:height\" content=\"630\">\n    <meta property=\"og:image:alt\" content=\"Muhammad Imran Ali &mdash; Full Stack Developer\">\n    <meta property=\"og:type\" content=\"website\">\n    <meta name=\"twitter:card\" content=\"summary_large_image\">\n    <meta name=\"twitter:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\">\n    <meta name=\"twitter:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\">\n    <meta name=\"twitter:image\" content=\"https://imran-ali.dev/og.png\">\n    <link rel=\"icon\" href=\"../favicon.ico\" type=\"image/x-icon\" sizes=\"16x16\">\n    <link rel=\"icon\" href=\"../icon.svg\" type=\"image/svg+xml\" sizes=\"any\">\n    <link rel=\"apple-touch-icon\" href=\"../apple-icon.png\" type=\"image/png\" sizes=\"180x180\">\n    <meta name=\"next-size-adjust\">\n    <link rel=\"stylesheet\" href=\"../site.css\">\n  </head>\n  <body class=\"relative min-h-screen\">\n    <div data-cms-block=\"header\"></div>\n    <div data-cms-block=\"social\"></div>\n    <main class=\"relative z-10\">\n      <div class=\"pt-24 sm:pt-28\">\n        <div data-cms-block=\"about\"></div>\n        <div data-cms-block=\"experience\"></div>\n      </div>\n    </main>\n    <div data-cms-block=\"footer\"></div>\n    <script src=\"../site.js\" defer></script>\n  </body>\n</html>\n",
+            "title": "About | Hassnain Ali"
+        },
+        "skills": {
+            "label": "Skills",
+            "html": "<!DOCTYPE html>\n<html lang=\"en\" class=\"__variable_a4bae9 __variable_9c618b __variable_3c557b\"><head><meta charset=\"utf-8\">\n<!-- This site is hosted on Netlify. Anyone can build and deploy a site\n     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=68047ec5-e76d-4a9a-a3f1-c4c839989ad5\n     Netlify hosting facts for this site: static/SSR served via Netlify Edge. --><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"preload\" href=\"../_next/static/media/313510e2713fb214-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"../_next/static/media/9d5a263311222317-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"../_next/static/media/bb3ef058b751a6ad-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"stylesheet\" href=\"../_next/static/css/66069b342bbe9d96.css\" data-precedence=\"next\"><title>Skills &middot; Imran Ali</title><meta name=\"description\" content=\"Frontend, backend and tooling skills.\"><meta name=\"application-name\" content=\"Imran Ali &mdash; Portfolio\"><link rel=\"author\" href=\"https://imran-ali.dev\"><meta name=\"author\" content=\"Muhammad Imran Ali\"><meta name=\"keywords\" content=\"Hassnain Ali,Junior PHP Developer,Rawalpindi,PHP,Laravel,MySQL,RESTful APIs,JavaScript,jQuery,AJAX,Computer Science\"><meta name=\"creator\" content=\"Muhammad Imran Ali\"><meta name=\"publisher\" content=\"Muhammad Imran Ali\"><meta name=\"robots\" content=\"index, follow\"><meta name=\"googlebot\" content=\"index, follow, max-image-preview:large, max-snippet:-1\"><meta name=\"category\" content=\"technology\"><link rel=\"canonical\" href=\"https://imran-ali.dev/skills\"><meta property=\"og:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\"><meta property=\"og:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\"><meta property=\"og:url\" content=\"https://imran-ali.dev\"><meta property=\"og:site_name\" content=\"Imran Ali &mdash; Portfolio\"><meta property=\"og:locale\" content=\"en_US\"><meta property=\"og:image\" content=\"https://imran-ali.dev/og.png\"><meta property=\"og:image:width\" content=\"1200\"><meta property=\"og:image:height\" content=\"630\"><meta property=\"og:image:alt\" content=\"Muhammad Imran Ali &mdash; Full Stack Developer\"><meta property=\"og:type\" content=\"website\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\"><meta name=\"twitter:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\"><meta name=\"twitter:image\" content=\"https://imran-ali.dev/og.png\"><link rel=\"icon\" href=\"../favicon.ico\" type=\"image/x-icon\" sizes=\"16x16\"><link rel=\"icon\" href=\"../icon.svg\" type=\"image/svg+xml\" sizes=\"any\"><link rel=\"apple-touch-icon\" href=\"../apple-icon.png\" type=\"image/png\" sizes=\"180x180\"><meta name=\"next-size-adjust\"><link rel=\"stylesheet\" href=\"../site.css\"></head><body class=\"relative min-h-screen\"><div data-cms-block=\"header\"></div><div data-cms-block=\"social\"></div><main class=\"relative z-10\"><div class=\"pt-24 sm:pt-28\"><div data-cms-block=\"skills\"></div></div></main><div data-cms-block=\"footer\"></div><script src=\"../site.js\" defer></script></body></html>\n",
+            "title": "Skills | Hassnain Ali"
+        },
+        "services": {
+            "label": "Services",
+            "html": "<!DOCTYPE html>\n<html lang=\"en\" class=\"__variable_a4bae9 __variable_9c618b __variable_3c557b\"><head><meta charset=\"utf-8\">\n<!-- This site is hosted on Netlify. Anyone can build and deploy a site\n     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=68047ec5-e76d-4a9a-a3f1-c4c839989ad5\n     Netlify hosting facts for this site: static/SSR served via Netlify Edge. --><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"preload\" href=\"../_next/static/media/313510e2713fb214-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"../_next/static/media/9d5a263311222317-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"../_next/static/media/bb3ef058b751a6ad-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"stylesheet\" href=\"../_next/static/css/66069b342bbe9d96.css\" data-precedence=\"next\"><title>Services &middot; Imran Ali</title><meta name=\"description\" content=\"Full-stack web apps, frontend engineering, backend APIs and SaaS dashboards.\"><meta name=\"application-name\" content=\"Imran Ali &mdash; Portfolio\"><link rel=\"author\" href=\"https://imran-ali.dev\"><meta name=\"author\" content=\"Muhammad Imran Ali\"><meta name=\"keywords\" content=\"Hassnain Ali,Junior PHP Developer,Rawalpindi,PHP,Laravel,MySQL,RESTful APIs,JavaScript,jQuery,AJAX,Computer Science\"><meta name=\"creator\" content=\"Muhammad Imran Ali\"><meta name=\"publisher\" content=\"Muhammad Imran Ali\"><meta name=\"robots\" content=\"index, follow\"><meta name=\"googlebot\" content=\"index, follow, max-image-preview:large, max-snippet:-1\"><meta name=\"category\" content=\"technology\"><link rel=\"canonical\" href=\"https://imran-ali.dev/services\"><meta property=\"og:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\"><meta property=\"og:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\"><meta property=\"og:url\" content=\"https://imran-ali.dev\"><meta property=\"og:site_name\" content=\"Imran Ali &mdash; Portfolio\"><meta property=\"og:locale\" content=\"en_US\"><meta property=\"og:image\" content=\"https://imran-ali.dev/og.png\"><meta property=\"og:image:width\" content=\"1200\"><meta property=\"og:image:height\" content=\"630\"><meta property=\"og:image:alt\" content=\"Muhammad Imran Ali &mdash; Full Stack Developer\"><meta property=\"og:type\" content=\"website\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\"><meta name=\"twitter:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\"><meta name=\"twitter:image\" content=\"https://imran-ali.dev/og.png\"><link rel=\"icon\" href=\"../favicon.ico\" type=\"image/x-icon\" sizes=\"16x16\"><link rel=\"icon\" href=\"../icon.svg\" type=\"image/svg+xml\" sizes=\"any\"><link rel=\"apple-touch-icon\" href=\"../apple-icon.png\" type=\"image/png\" sizes=\"180x180\"><meta name=\"next-size-adjust\"><link rel=\"stylesheet\" href=\"../site.css\"></head><body class=\"relative min-h-screen\"><div data-cms-block=\"header\"></div><div data-cms-block=\"social\"></div><main class=\"relative z-10\"><div class=\"pt-24 sm:pt-28\"><div data-cms-block=\"services\"></div><div data-cms-block=\"cta\"></div></div></main><div data-cms-block=\"footer\"></div><script src=\"../site.js\" defer></script></body></html>\n",
+            "title": "Services | Hassnain Ali"
+        },
+        "experience": {
+            "label": "Experience",
+            "html": "<!DOCTYPE html>\n<html lang=\"en\" class=\"__variable_a4bae9 __variable_9c618b __variable_3c557b\"><head><meta charset=\"utf-8\">\n<!-- This site is hosted on Netlify. Anyone can build and deploy a site\n     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=68047ec5-e76d-4a9a-a3f1-c4c839989ad5\n     Netlify hosting facts for this site: static/SSR served via Netlify Edge. --><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"preload\" href=\"../_next/static/media/313510e2713fb214-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"../_next/static/media/9d5a263311222317-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"../_next/static/media/bb3ef058b751a6ad-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"stylesheet\" href=\"../_next/static/css/66069b342bbe9d96.css\" data-precedence=\"next\"><title>Experience &middot; Imran Ali</title><meta name=\"description\" content=\"Professional experience and track record.\"><meta name=\"application-name\" content=\"Imran Ali &mdash; Portfolio\"><link rel=\"author\" href=\"https://imran-ali.dev\"><meta name=\"author\" content=\"Muhammad Imran Ali\"><meta name=\"keywords\" content=\"Hassnain Ali,Junior PHP Developer,Rawalpindi,PHP,Laravel,MySQL,RESTful APIs,JavaScript,jQuery,AJAX,Computer Science\"><meta name=\"creator\" content=\"Muhammad Imran Ali\"><meta name=\"publisher\" content=\"Muhammad Imran Ali\"><meta name=\"robots\" content=\"index, follow\"><meta name=\"googlebot\" content=\"index, follow, max-image-preview:large, max-snippet:-1\"><meta name=\"category\" content=\"technology\"><link rel=\"canonical\" href=\"https://imran-ali.dev/experience\"><meta property=\"og:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\"><meta property=\"og:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\"><meta property=\"og:url\" content=\"https://imran-ali.dev\"><meta property=\"og:site_name\" content=\"Imran Ali &mdash; Portfolio\"><meta property=\"og:locale\" content=\"en_US\"><meta property=\"og:image\" content=\"https://imran-ali.dev/og.png\"><meta property=\"og:image:width\" content=\"1200\"><meta property=\"og:image:height\" content=\"630\"><meta property=\"og:image:alt\" content=\"Muhammad Imran Ali &mdash; Full Stack Developer\"><meta property=\"og:type\" content=\"website\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\"><meta name=\"twitter:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\"><meta name=\"twitter:image\" content=\"https://imran-ali.dev/og.png\"><link rel=\"icon\" href=\"../favicon.ico\" type=\"image/x-icon\" sizes=\"16x16\"><link rel=\"icon\" href=\"../icon.svg\" type=\"image/svg+xml\" sizes=\"any\"><link rel=\"apple-touch-icon\" href=\"../apple-icon.png\" type=\"image/png\" sizes=\"180x180\"><meta name=\"next-size-adjust\"><link rel=\"stylesheet\" href=\"../site.css\"></head><body class=\"relative min-h-screen\"><div data-cms-block=\"header\"></div><div data-cms-block=\"social\"></div><main class=\"relative z-10\"><div class=\"pt-24 sm:pt-28\"><div data-cms-block=\"experience\"></div></div></main><div data-cms-block=\"footer\"></div><script src=\"../site.js\" defer></script></body></html>\n",
+            "title": "Experience | Hassnain Ali"
+        },
+        "contact": {
+            "label": "Contact",
+            "html": "<!DOCTYPE html>\n<html lang=\"en\" class=\"__variable_a4bae9 __variable_9c618b __variable_3c557b\">\n  <head>\n    <meta charset=\"utf-8\">\n    <!-- This site is hosted on Netlify. Anyone can build and deploy a site\n     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=68047ec5-e76d-4a9a-a3f1-c4c839989ad5\n     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"preload\" href=\"../_next/static/media/313510e2713fb214-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n    <link rel=\"preload\" href=\"../_next/static/media/9d5a263311222317-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n    <link rel=\"preload\" href=\"../_next/static/media/bb3ef058b751a6ad-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\">\n    <link rel=\"stylesheet\" href=\"../_next/static/css/66069b342bbe9d96.css\" data-precedence=\"next\">\n    <title>Contact &middot; Imran Ali</title>\n    <meta name=\"description\" content=\"Get in touch to discuss a project or role.\">\n    <meta name=\"application-name\" content=\"Imran Ali &mdash; Portfolio\">\n    <link rel=\"author\" href=\"https://imran-ali.dev\">\n    <meta name=\"author\" content=\"Muhammad Imran Ali\">\n    <meta name=\"keywords\" content=\"Hassnain Ali,Junior PHP Developer,Rawalpindi,PHP,Laravel,MySQL,RESTful APIs,JavaScript,jQuery,AJAX,Computer Science\">\n    <meta name=\"creator\" content=\"Muhammad Imran Ali\">\n    <meta name=\"publisher\" content=\"Muhammad Imran Ali\">\n    <meta name=\"robots\" content=\"index, follow\">\n    <meta name=\"googlebot\" content=\"index, follow, max-image-preview:large, max-snippet:-1\">\n    <meta name=\"category\" content=\"technology\">\n    <link rel=\"canonical\" href=\"https://imran-ali.dev/contact\">\n    <meta property=\"og:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\">\n    <meta property=\"og:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\">\n    <meta property=\"og:url\" content=\"https://imran-ali.dev\">\n    <meta property=\"og:site_name\" content=\"Imran Ali &mdash; Portfolio\">\n    <meta property=\"og:locale\" content=\"en_US\">\n    <meta property=\"og:image\" content=\"https://imran-ali.dev/og.png\">\n    <meta property=\"og:image:width\" content=\"1200\">\n    <meta property=\"og:image:height\" content=\"630\">\n    <meta property=\"og:image:alt\" content=\"Muhammad Imran Ali &mdash; Full Stack Developer\">\n    <meta property=\"og:type\" content=\"website\">\n    <meta name=\"twitter:card\" content=\"summary_large_image\">\n    <meta name=\"twitter:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\">\n    <meta name=\"twitter:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\">\n    <meta name=\"twitter:image\" content=\"https://imran-ali.dev/og.png\">\n    <link rel=\"icon\" href=\"../favicon.ico\" type=\"image/x-icon\" sizes=\"16x16\">\n    <link rel=\"icon\" href=\"../icon.svg\" type=\"image/svg+xml\" sizes=\"any\">\n    <link rel=\"apple-touch-icon\" href=\"../apple-icon.png\" type=\"image/png\" sizes=\"180x180\">\n    <meta name=\"next-size-adjust\">\n    <link rel=\"stylesheet\" href=\"../site.css\">\n  </head>\n  <body class=\"relative min-h-screen\">\n    <div data-cms-block=\"header\"></div>\n    <div data-cms-block=\"social\"></div>\n    <main class=\"relative z-10\">\n      <div data-cms-block=\"contact\"></div>\n    </main>\n    <div data-cms-block=\"footer\"></div>\n    <script src=\"../site.js\" defer></script>\n  </body>\n</html>\n",
+            "title": "Contact | Hassnain Ali"
+        },
+        "projects/rest-api-task-manager": {
+            "label": "REST API Task Manager",
+            "html": "<!DOCTYPE html>\n<html lang=\"en\" class=\"__variable_a4bae9 __variable_9c618b __variable_3c557b\"><head><meta charset=\"utf-8\">\n<!-- This site is hosted on Netlify. Anyone can build and deploy a site\n     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=68047ec5-e76d-4a9a-a3f1-c4c839989ad5\n     Netlify hosting facts for this site: static/SSR served via Netlify Edge. --><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"preload\" href=\"../../_next/static/media/313510e2713fb214-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"../../_next/static/media/9d5a263311222317-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"../../_next/static/media/bb3ef058b751a6ad-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"stylesheet\" href=\"../../_next/static/css/66069b342bbe9d96.css\" data-precedence=\"next\"><title>Operator Labs Website &middot; Imran Ali</title><meta name=\"description\" content=\"A professional AI healthcare website for Operator Labs, focused on AI voice agents for healthcare revenue cycle management. The platform presents enterprise-grade voice AI solutions that automate payer calls, insurance follow-ups, prior authorization, patient collections, and healthcare RCM workflows.\"><meta name=\"application-name\" content=\"Imran Ali &mdash; Portfolio\"><link rel=\"author\" href=\"https://imran-ali.dev\"><meta name=\"author\" content=\"Muhammad Imran Ali\"><meta name=\"keywords\" content=\"Hassnain Ali,Junior PHP Developer,Rawalpindi,PHP,Laravel,MySQL,RESTful APIs,JavaScript,jQuery,AJAX,Computer Science\"><meta name=\"creator\" content=\"Muhammad Imran Ali\"><meta name=\"publisher\" content=\"Muhammad Imran Ali\"><meta name=\"robots\" content=\"index, follow\"><meta name=\"googlebot\" content=\"index, follow, max-image-preview:large, max-snippet:-1\"><meta name=\"category\" content=\"technology\"><link rel=\"canonical\" href=\"https://imran-ali.dev/projects/operator-labs-website\"><meta property=\"og:title\" content=\"Operator Labs Website\"><meta property=\"og:description\" content=\"A professional AI healthcare website for Operator Labs, focused on AI voice agents for healthcare revenue cycle management. The platform presents enterprise-grade voice AI solutions that automate payer calls, insurance follow-ups, prior authorization, patient collections, and healthcare RCM workflows.\"><meta property=\"og:url\" content=\"https://imran-ali.dev/projects/operator-labs-website\"><meta property=\"og:image\" content=\"https://imran-ali.dev/og.png\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\"><meta name=\"twitter:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\"><meta name=\"twitter:image\" content=\"https://imran-ali.dev/og.png\"><link rel=\"icon\" href=\"../../favicon.ico\" type=\"image/x-icon\" sizes=\"16x16\"><link rel=\"icon\" href=\"../../icon.svg\" type=\"image/svg+xml\" sizes=\"any\"><link rel=\"apple-touch-icon\" href=\"../../apple-icon.png\" type=\"image/png\" sizes=\"180x180\"><meta name=\"next-size-adjust\"><link rel=\"stylesheet\" href=\"../../site.css\"></head><body class=\"relative min-h-screen\"><div data-cms-block=\"header\"></div><div data-cms-block=\"social\"></div><main class=\"relative z-10\"><div data-cms-block=\"projects/rest-api-task-manager\"></div></main><div data-cms-block=\"footer\"></div><script src=\"../../site.js\" defer></script></body></html>\n",
+            "title": "REST API Task Manager | Hassnain Ali"
+        },
+        "projects/item-f325564358ae4f9b853b8245641a0761": {
+            "label": "Case study: item-f325564358ae4f9b853b8245641a0761",
+            "html": "<!DOCTYPE html>\n<html lang=\"en\" class=\"__variable_a4bae9 __variable_9c618b __variable_3c557b\"><head><meta charset=\"utf-8\">\n<!-- This site is hosted on Netlify. Anyone can build and deploy a site\n     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=68047ec5-e76d-4a9a-a3f1-c4c839989ad5\n     Netlify hosting facts for this site: static/SSR served via Netlify Edge. --><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"preload\" href=\"../../_next/static/media/313510e2713fb214-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"../../_next/static/media/9d5a263311222317-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"preload\" href=\"../../_next/static/media/bb3ef058b751a6ad-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"><link rel=\"stylesheet\" href=\"../../_next/static/css/66069b342bbe9d96.css\" data-precedence=\"next\"><title>Operator Labs Website &middot; Imran Ali</title><meta name=\"description\" content=\"A professional AI healthcare website for Operator Labs, focused on AI voice agents for healthcare revenue cycle management. The platform presents enterprise-grade voice AI solutions that automate payer calls, insurance follow-ups, prior authorization, patient collections, and healthcare RCM workflows.\"><meta name=\"application-name\" content=\"Imran Ali &mdash; Portfolio\"><link rel=\"author\" href=\"https://imran-ali.dev\"><meta name=\"author\" content=\"Muhammad Imran Ali\"><meta name=\"keywords\" content=\"Hassnain Ali,Junior PHP Developer,Rawalpindi,PHP,Laravel,MySQL,RESTful APIs,JavaScript,jQuery,AJAX,Computer Science\"><meta name=\"creator\" content=\"Muhammad Imran Ali\"><meta name=\"publisher\" content=\"Muhammad Imran Ali\"><meta name=\"robots\" content=\"index, follow\"><meta name=\"googlebot\" content=\"index, follow, max-image-preview:large, max-snippet:-1\"><meta name=\"category\" content=\"technology\"><link rel=\"canonical\" href=\"https://imran-ali.dev/projects/operator-labs-website\"><meta property=\"og:title\" content=\"Operator Labs Website\"><meta property=\"og:description\" content=\"A professional AI healthcare website for Operator Labs, focused on AI voice agents for healthcare revenue cycle management. The platform presents enterprise-grade voice AI solutions that automate payer calls, insurance follow-ups, prior authorization, patient collections, and healthcare RCM workflows.\"><meta property=\"og:url\" content=\"https://imran-ali.dev/projects/operator-labs-website\"><meta property=\"og:image\" content=\"https://imran-ali.dev/og.png\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"Imran Ali | Software Engineer &amp; Full Stack Developer\"><meta name=\"twitter:description\" content=\"Imran Ali is a software engineer and full stack developer specializing in modern web applications, Next.js, React, Node.js, backend APIs, responsive UI, and SEO-friendly websites.\"><meta name=\"twitter:image\" content=\"https://imran-ali.dev/og.png\"><link rel=\"icon\" href=\"../../favicon.ico\" type=\"image/x-icon\" sizes=\"16x16\"><link rel=\"icon\" href=\"../../icon.svg\" type=\"image/svg+xml\" sizes=\"any\"><link rel=\"apple-touch-icon\" href=\"../../apple-icon.png\" type=\"image/png\" sizes=\"180x180\"><meta name=\"next-size-adjust\"><link rel=\"stylesheet\" href=\"../../site.css\"></head><body class=\"relative min-h-screen\"><div data-cms-block=\"header\"></div><div data-cms-block=\"social\"></div><main class=\"relative z-10\"><div data-cms-block=\"projects/item-f325564358ae4f9b853b8245641a0761\"></div></main><div data-cms-block=\"footer\"></div><script src=\"../../site.js\" defer></script></body></html>\n",
+            "title": "REST API Task Manager | Hassnain Ali"
+        }
+    }
+}

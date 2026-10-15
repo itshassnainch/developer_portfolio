@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#DCFB87"/>
+      <stop offset="0.5" stop-color="#C6F24E"/>
+      <stop offset="1" stop-color="#5EE6D0"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#191C24"/><stop offset="1" stop-color="#101218"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.16" r="0.95">
+      <stop offset="0" stop-color="#C6F24E" stop-opacity="0.22"/>
+      <stop offset="0.6" stop-color="#C6F24E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="116" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="116" fill="url(#glow)"/>
+  <rect x="22" y="22" width="468" height="468" rx="110" fill="none" stroke="#C6F24E" stroke-opacity="0.22" stroke-width="3"/>
+  <g fill="url(#g)">
+    <path transform="translate(48.03,380.00) scale(0.3543,-0.3543)" d="M84 0V730H248V0Z"/>
+    <path transform="translate(186.91,380.00) scale(0.3543,-0.3543)" d="M13 0 254.25 730H519.25L768.5 0H599.25L397 616.5L448.75 595.5H320.25L373.5 616.5L177 0ZM195.5 181.25 245.75 317.25H532.25L582.5 181.25Z"/>
+  </g>
+</svg>
